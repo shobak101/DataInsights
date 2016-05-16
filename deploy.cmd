@@ -1,0 +1,1 @@
+IF %COMPONENT_NAME%==TwitterDataCollector deployCollector.cmd %*
