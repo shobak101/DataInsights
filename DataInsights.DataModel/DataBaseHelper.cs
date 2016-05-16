@@ -16,7 +16,7 @@ namespace DataModel
         {
             try
             {
-                String rawObject = (entry.RawContent == null) ? null : JsonConvert.SerializeObject(entry.RawContent);
+                String rawObject = (entry.RawContent == null) ? "" : JsonConvert.SerializeObject(entry.RawContent);
                 if (SqlConnection.State != System.Data.ConnectionState.Open)
                 {
                     SqlConnection.Open();
