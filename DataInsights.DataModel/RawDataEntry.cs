@@ -13,6 +13,7 @@ namespace DataModel
         public String Author { get; set; }
         public DateTime TimeStamp { get; set; }
         public String Content { get; set; }
+        public object RawContent { get; set; }
 
         public void Commit()
         {
