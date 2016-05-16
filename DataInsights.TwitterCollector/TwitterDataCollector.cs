@@ -47,8 +47,7 @@ namespace TwitterConnector
                     Source = "Twitter",
                     Author = arguments.Tweet.CreatedBy.ToString(),
                     Content = arguments.Tweet.ToString(),
-                    TimeStamp = arguments.Tweet.CreatedAt,
-                    RawContent = arguments.Tweet
+                    TimeStamp = arguments.Tweet.CreatedAt
                 };
                 entry.Commit();
             };
