@@ -1,0 +1,10 @@
+.vs/
+DataInsights.DataCollector/bin/
+DataInsights.DataCollector/obj/
+DataInsights.DataModel/bin/
+DataInsights.DataModel/obj/
+DataInsights.TwitterCollector.WebAPI/bin/
+DataInsights.TwitterCollector.WebAPI/obj/
+DataInsights.TwitterCollector/bin/
+DataInsights.TwitterCollector/obj/
+packages/
