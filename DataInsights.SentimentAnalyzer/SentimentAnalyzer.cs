@@ -43,7 +43,7 @@ namespace DataInsights.SentimentAnalyzer
                     BatchItems += "{\"id\":\""+ item.Id+ "\",\"text\":\"" + item.Content.Replace(":","")
                                     .Replace(Environment.NewLine,"").Replace("\"","").Replace("\n","")
                                     .Replace("\r","").Replace("}","").Replace("{","").Replace(".","")
-                                    .Replace("…","")+ "\"},";
+                                    .Replace("…","").Replace("\\","/")+ "\"},";
                 }
 
                 BatchItems = "{\"documents\":[" + BatchItems + "]}";

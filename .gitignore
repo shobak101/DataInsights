@@ -8,3 +8,9 @@ DataInsights.TwitterCollector.WebAPI/obj/
 DataInsights.TwitterCollector/bin/
 DataInsights.TwitterCollector/obj/
 packages/
+DataInsights.Common/bin/
+DataInsights.Common/obj/
+DataInsights.DataAnalyzer/bin/
+DataInsights.DataAnalyzer/obj/
+DataInsights.SentimentAnalyzer/bin/
+DataInsights.SentimentAnalyzer/obj/
