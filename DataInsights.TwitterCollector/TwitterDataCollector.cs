@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataCollector;
 using Tweetinvi;
 using System.IO;
 using Tweetinvi.Core.Interfaces.Streaminvi;
-using DataModel;
+using DataInsights.DataModel;
+using DataInsights.DataCollector;
 
 namespace TwitterConnector
 {

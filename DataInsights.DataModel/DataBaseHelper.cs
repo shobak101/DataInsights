@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Newtonsoft.Json;
 
-namespace DataModel
+namespace DataInsights.DataModel
 {
     public static class DataBaseHelper
     {
@@ -16,25 +16,89 @@ namespace DataModel
         {
             try
             {
-                String rawObject = (entry.RawContent == null) ? "" : JsonConvert.SerializeObject(entry.RawContent);
                 if (SqlConnection.State != System.Data.ConnectionState.Open)
                 {
                     SqlConnection.Open();
                 }
-                String command = @"INSERT INTO RAWDATATABLE (source,author,timestamp,content,rawcontent) 
-                                VALUES (@source,@author,@timestamp,@content,@rawcontent)";
-                
-                SqlCommand sqlCommand = new SqlCommand(command, SqlConnection);
-                sqlCommand.Parameters.AddWithValue("@source", entry.Source);
-                sqlCommand.Parameters.AddWithValue("@author", entry.Author);
-                sqlCommand.Parameters.AddWithValue("@timestamp", entry.TimeStamp);
-                sqlCommand.Parameters.AddWithValue("@content", entry.Content);
-                sqlCommand.Parameters.AddWithValue("@rawcontent", rawObject);
+                SqlCommand sqlCommand = DBQueries.GetInsertRawDataQuery(entry, SqlConnection);
                 sqlCommand.ExecuteNonQuery();
             }
             catch (Exception e)
             {
-                Console.WriteLine("Committing to SQL failed with exception: {0}", e);
+                Console.WriteLine("Committing to SQL failed for RecordRawData with exception: {0}", e);
+            }
+        }
+
+        public static IEnumerable<RawDataEntry> GetRawDataForAnalyzer(String AnalyzerId)
+        {
+            List<RawDataEntry> result = new List<RawDataEntry>();
+            try
+            {
+                if (SqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    SqlConnection.Open();
+                }
+                SqlCommand sqlCommand = DBQueries.GetAnalyzerMarkerQuery(AnalyzerId, SqlConnection);
+                String id = sqlCommand.ExecuteScalar().ToString();
+
+                sqlCommand = DBQueries.GetRetrieveRawRecordsForProcessingQuery(id, SqlConnection);
+                using (SqlDataReader reader = sqlCommand.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            RawDataEntry entry = new RawDataEntry
+                            {
+                                Id = reader.GetInt32(0).ToString(),
+                                Source = reader.GetString(1),
+                                Author = reader.GetString(2),
+                                TimeStamp = reader.GetDateTime(3),
+                                Content = reader.GetString(4)
+                            };
+                            result.Add(entry);
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Committing to SQL failed for GetRawDataForAnalyzer with exception: {0}", e);
+            }
+            return result;
+        }
+
+        public static void RecordSentimentAnalyzedData(String analyzerId, String id, String sentiment)
+        {
+            try
+            {
+                if (SqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    SqlConnection.Open();
+                }
+                SqlCommand sqlCommand = DBQueries.GetInsertSentimentAnalyzerDataQuery(analyzerId, id, sentiment, SqlConnection);
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Committing to SQL failed for RecordSentimentAnalyzedData with exception: {0}", e);
+            }
+        }
+
+        public static void UpdateAnalyzerCursor(String analyzerId, String newCursorValue)
+        {
+            try
+            {
+                if (SqlConnection.State != System.Data.ConnectionState.Open)
+                {
+                    SqlConnection.Open();
+                }
+                SqlCommand sqlCommand = DBQueries.GetUpdateAnalyzerMarkerQuery(analyzerId, newCursorValue, SqlConnection);
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Committing to SQL failed for UpdateAnalyzerCursor with exception: {0}", e);
             }
         }
     }

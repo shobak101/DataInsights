@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataModel
+namespace DataInsights.DataModel
 {
     public class RawDataEntry
     {

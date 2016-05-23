@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Tweetinvi;
 using System.Configuration;
-using DataCollector;
+using DataInsights.DataCollector;
 
 namespace TwitterConnector
 {

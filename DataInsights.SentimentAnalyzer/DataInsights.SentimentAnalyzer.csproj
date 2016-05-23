@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4FF7CB3A-0209-4BAE-9FB7-93F66EDFF50C}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{1B3FC1D4-F48F-4735-9C42-88FC5A9AE832}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataInsights.DataModel</RootNamespace>
-    <AssemblyName>DataInsights.DataModel</AssemblyName>
+    <RootNamespace>DataInsights.SentimentAnalyzer</RootNamespace>
+    <AssemblyName>DataInsights.SentimentAnalyzer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -44,16 +47,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AnalyzerDataHelper.cs" />
-    <Compile Include="Constants.cs" />
-    <Compile Include="DataBaseHelper.cs" />
-    <Compile Include="DBQueries.cs" />
-    <Compile Include="IAnalyzerData.cs" />
-    <Compile Include="RawDataEntry.cs" />
+    <Compile Include="AnalyzedSentiment.cs" />
+    <Compile Include="AzureTextAnalyticsResponseModel.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SentimentAnalyzer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataInsights.Common\DataInsights.Common.csproj">
+      <Project>{b99c9176-357d-4a1e-98f4-8acb233b8401}</Project>
+      <Name>DataInsights.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataInsights.DataAnalyzer\DataInsights.DataAnalyzer.csproj">
+      <Project>{d46c61b4-174e-4d88-979a-5df9f94129c7}</Project>
+      <Name>DataInsights.DataAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataInsights.DataModel\DataInsights.DataModel.csproj">
+      <Project>{4ff7cb3a-0209-4bae-9fb7-93f66edff50c}</Project>
+      <Name>DataInsights.DataModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

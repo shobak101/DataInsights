@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataCollector
+namespace DataInsights.DataCollector
 {
     public interface IDataCollector
     {
