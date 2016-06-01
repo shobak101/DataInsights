@@ -11,7 +11,7 @@ namespace DataInsights.DataAnalyzer
     {
         private IDataAnalyzer _analyzer;
         private bool isRunning = false;
-        private TimeSpan _pollintInterval = TimeSpan.FromSeconds(10);
+        private TimeSpan _pollintInterval = TimeSpan.FromMinutes(2);
         public DataAnalyzerRunner(IDataAnalyzer analyzer)
         {
             _analyzer = analyzer;
