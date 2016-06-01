@@ -11,7 +11,7 @@ namespace DataInsights.DataAnalyzer
     {
         private IDataAnalyzer _analyzer;
         private bool isRunning = false;
-        private TimeSpan _pollintInterval = TimeSpan.FromMinutes(2);
+        private TimeSpan _pollintInterval = TimeSpan.FromSeconds(10);
         public DataAnalyzerRunner(IDataAnalyzer analyzer)
         {
             _analyzer = analyzer;
@@ -23,9 +23,12 @@ namespace DataInsights.DataAnalyzer
             while (isRunning)
             {
                 var rawData = _analyzer.GetRawDataBatch();
-                var analyzedData = _analyzer.AnalyzeData(rawData);
-                _analyzer.SaveAnalyzedData(analyzedData);
-                _analyzer.UpdateCursor();
+                if (rawData.Count() != 0)
+                {
+                    var analyzedData = _analyzer.AnalyzeData(rawData);
+                    _analyzer.SaveAnalyzedData(analyzedData);
+                    _analyzer.UpdateCursor();
+                }
                 Thread.Sleep(_pollintInterval);
             }
         }
