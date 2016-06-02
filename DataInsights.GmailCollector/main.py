@@ -16,7 +16,7 @@ from apiclient import errors
 SCOPES = 'https://mail.google.com/'
 CLIENT_SECRET_FILE = '/Users/edwardk/go/workspace/src/github.com/gosu517/datacollector/client_secret.json'
 APPLICATION_NAME = 'Gmail API Python Quickstart'
-conn = pymssql.connect(server="streamanalyticsproject.database.windows.net", port=1433, user="css553user@streamanalyticsproject.database.windows.net", password="CSS553password", database="StreamAnalyticsProject")
+conn = pymssql.connect(host="streamanalyticsproject.database.windows.net", port=1433, user="css553user@streamanalyticsproject.database.windows.net", password="CSS553password", database="StreamAnalyticsProject", as_dict=True)
 
 def get_credentials():
     """Gets valid user credentials from storage.
@@ -57,6 +57,11 @@ def main():
     #Get list of new mail
     results = service.users().messages().list(userId='me', labelIds=None, q=None, pageToken=None, maxResults=None, includeSpamTrash=None).execute()
     messages = results.get('messages', [])
+
+    #testing -----------------------------
+    #cursor = conn.cursor()
+    #cursor.execute('SELECT * FROM [StreamAnalyticsProject]..RawDataTable WHERE source=%s', 'Twitter')
+    #print(cursor.fetchone())
 
     if not messages:
         print('No Mail')
@@ -115,7 +120,8 @@ def main():
             #("gmail", author, tstamp, content)
             #)
 
-            #cursor.execute('SELECT * FROM RawDataTable')
+            #cursor.execute('SELECT * FROM RawDataTable WHERE source=%s', 'Twitter')
+            #print(pymssql._mssql.MSSQLDatabaseException.message)
             #print(cursor.fetchone())
 
             #cursor.execute("INSERT StreamAnalyticsProject.RawDataTable ('source', 'author', 'timestamp', 'content') OUTPUT INSERTED.RawDataTableId VALUES ('gmail','Edward Kim','12-14-2015','test message')")
@@ -127,21 +133,6 @@ def main():
 
             #conn.commit()
 
-
-#msg_str = base64.urlsafe_b64decode(message['raw'].encode('ASCII'))
-
-    #results = service.users().messages().get(userId='me', id='1550535038e335a1', format=None, metadataHeaders=None).execute()
-    #print(results)
-#    results = service.users().labels().list(userId='me').execute()
-#    labels = results.get('labels', [])
-
-#    if not labels:
-#        print('No labels found.')
-#    else:
-#      print('Labels:')
-#      for label in labels:
-#        print(label['name'])
-#conn.close()
 
 if __name__ == '__main__':
     main()
