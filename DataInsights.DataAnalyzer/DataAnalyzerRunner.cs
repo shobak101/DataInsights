@@ -23,9 +23,12 @@ namespace DataInsights.DataAnalyzer
             while (isRunning)
             {
                 var rawData = _analyzer.GetRawDataBatch();
-                var analyzedData = _analyzer.AnalyzeData(rawData);
-                _analyzer.SaveAnalyzedData(analyzedData);
-                _analyzer.UpdateCursor();
+                if (rawData.Count() != 0)
+                {
+                    var analyzedData = _analyzer.AnalyzeData(rawData);
+                    _analyzer.SaveAnalyzedData(analyzedData);
+                    _analyzer.UpdateCursor();
+                }
                 Thread.Sleep(_pollintInterval);
             }
         }
