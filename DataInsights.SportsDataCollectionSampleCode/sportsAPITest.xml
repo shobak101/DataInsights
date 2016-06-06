@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" charset="UTF-8" href="/xslt/baseball/v5/daily-boxscore.xsl"?>
+<!-- Generation started @ 2016-06-06 02:16:16 UTC -->
+<league xmlns="http://feed.elasticstats.com/schema/baseball/v5/daily-games.xsd" id="2fa448bc-fc17-4d3d-be03-e60e080fdc26" name="Major League Baseball" alias="MLB">
+  <daily-boxscore date="2016-06-05">
+    <games>
+      <game id="be6d945b-fb53-4de7-9a0c-5386b77cd46c" status="closed" coverage="full" attendance="28807" duration="3:26" game_number="1" day_night="D" scheduled="2016-06-05T17:35:00+00:00" home_team="75729d34-bca7-4a0f-b3df-6f26c6ad3719" away_team="a09ec676-f887-43dc-bbb3-cf4bbaee9a18">
+        <venue id="434aa63c-1049-4a54-a6bc-3790c7772ee1" name="Oriole Park at Camden Yards" market="Baltimore" capacity="45971" surface="grass" address="333 West Camden Street" city="Baltimore" state="MD" zip="21201" country="USA"/>
+        <broadcast network="MASN"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Orioles" market="Baltimore" abbr="BAL" id="75729d34-bca7-4a0f-b3df-6f26c6ad3719" runs="3" hits="6" errors="1">
+          <probable_pitcher last_name="Gausman" first_name="Kevin" preferred_name="Kevin" jersey_number="39" id="cef2e01f-1349-4e31-bf1e-757ae8cb6bc6" win="0" loss="3" era="3.776"/>
+          <starting_pitcher last_name="Gausman" first_name="Kevin" preferred_name="Kevin" jersey_number="39" id="cef2e01f-1349-4e31-bf1e-757ae8cb6bc6" win="0" loss="3" era="3.776"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="3"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="46d29047-b782-4a98-b210-c31222a72cc1" hitter_id="3af422a1-b7bd-4edb-8b78-a61e3f4483a3" pitcher_id="17a14a6a-42f8-4f2e-86f3-42051584563e" inning="8" inning_half="B" type="pitch" hitter_outcome="aSAD3">
+              <runner id="7ba91363-4aeb-4934-9247-7e642255f031" starting_base="1" first_name="Francisco" last_name="Pena" preferred_name="Francisco" jersey_number="27"/>
+              <runner id="ddfbc667-95d8-49fc-8e77-a8e4e452d820" starting_base="2" first_name="Christopher" last_name="Davis" preferred_name="Chris" jersey_number="19"/>
+              <runner id="aff8ce97-4a84-43db-bdaf-3517b6b5fa88" starting_base="3" first_name="Mark" last_name="Trumbo" preferred_name="Mark" jersey_number="45"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Yankees" market="New York" abbr="NYY" id="a09ec676-f887-43dc-bbb3-cf4bbaee9a18" runs="1" hits="10" errors="1">
+          <probable_pitcher last_name="Sabathia" first_name="Carsten" preferred_name="CC" jersey_number="52" id="34c78a46-c798-4545-a05c-f9b693635e9b" win="3" loss="4" era="2.852"/>
+          <starting_pitcher last_name="Sabathia" first_name="Carsten" preferred_name="CC" jersey_number="52" id="34c78a46-c798-4545-a05c-f9b693635e9b" win="3" loss="4" era="2.852"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="1"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="a53afd19-bc81-4e09-abeb-387719d06c5f" hitter_id="9253ce81-0d6f-451e-b503-7b0435eb6cce" pitcher_id="cef2e01f-1349-4e31-bf1e-757ae8cb6bc6" inning="3" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="28e6daa5-fb40-49d9-9e58-04d113cd63b9" starting_base="3" first_name="Jacoby" last_name="Ellsbury" preferred_name="Jacoby" jersey_number="22"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="c680f678-0ca6-475f-abfd-bb8766aca82b" status="A" position="P" primary_position="RP" first_name="Timothy" last_name="McFarland" preferred_name="T.J." jersey_number="66" win="1" loss="1" save="0" hold="0" blown_save="2"/>
+          </win>
+          <loss>
+            <player id="41d695be-d912-4a4f-a75f-6e1078c3362a" status="A" position="P" primary_position="RP" first_name="Dellin" last_name="Betances" preferred_name="Dellin" jersey_number="68" win="2" loss="4" save="0" hold="14" blown_save="1"/>
+          </loss>
+          <save>
+            <player id="20fa823a-0911-4e24-9e02-42794ed7dee1" status="A" position="P" primary_position="RP" first_name="Zachary" last_name="Britton" preferred_name="Zach" jersey_number="53" win="2" loss="1" save="17" hold="0" blown_save="0"/>
+          </save>
+          <hold>
+            <player id="41d695be-d912-4a4f-a75f-6e1078c3362a" status="A" position="P" primary_position="RP" first_name="Dellin" last_name="Betances" preferred_name="Dellin" jersey_number="68" win="2" loss="4" save="0" hold="14" blown_save="1"/>
+            <player id="fe45e33b-f554-4856-af56-1f4f578eaa82" status="A" position="P" primary_position="RP" first_name="Kirby" last_name="Yates" preferred_name="Kirby" jersey_number="39" win="2" loss="0" save="0" hold="2" blown_save="1"/>
+          </hold>
+          <blown_save>
+            <player id="17a14a6a-42f8-4f2e-86f3-42051584563e" status="A" position="P" primary_position="RP" first_name="Albertin" last_name="Chapman" preferred_name="Aroldis" jersey_number="54" win="0" loss="0" save="9" hold="0" blown_save="1"/>
+          </blown_save>
+        </pitching>
+      </game>
+      <game id="064dacb7-e6a4-47fe-8185-db10285192da" status="closed" coverage="full" attendance="30817" duration="3:05" game_number="1" day_night="D" scheduled="2016-06-05T18:10:00+00:00" home_team="eb21dadd-8f10-4095-8bf3-dfb3b779f107" away_team="27a59d3b-ff7c-48ea-b016-4798f560f5e1">
+        <venue id="f0600f04-1386-4c61-a412-804960c46cb1" name="Minute Maid Park" market="Houston" capacity="42060" surface="grass" address="501 Crawford Street" city="Houston" state="TX" zip="77002" country="USA"/>
+        <broadcast network="ROOT SPORTS SW"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Astros" market="Houston" abbr="HOU" id="eb21dadd-8f10-4095-8bf3-dfb3b779f107" runs="5" hits="9" errors="0">
+          <probable_pitcher last_name="McCullers" first_name="Lance" preferred_name="Lance" jersey_number="43" id="fc552e8f-e5e0-4060-b018-6babc108507b" win="2" loss="1" era="4.79"/>
+          <starting_pitcher last_name="McCullers" first_name="Lance" preferred_name="Lance" jersey_number="43" id="fc552e8f-e5e0-4060-b018-6babc108507b" win="2" loss="1" era="4.79"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="1"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="1"/>
+            <inning number="8" sequence="8" runs="2"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="5606e756-b756-4e1f-8226-c1bfa4237b95" hitter_id="d77fc18d-e11d-4ce8-b12c-9d08b913cb61" pitcher_id="b004cc6c-f00c-4b5d-917a-ee1abf92179d" inning="5" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="d77fc18d-e11d-4ce8-b12c-9d08b913cb61" starting_base="0" first_name="Carlos" last_name="Gomez" preferred_name="Carlos" jersey_number="30"/>
+            </run>
+            <run id="dc31043b-9961-44f9-81b5-c6bbd10b4abf" hitter_id="ab823ce4-655b-4d1d-ba3e-23316d8053dc" pitcher_id="63b96ee5-e212-4b87-a8e5-28913beb7df2" inning="6" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="ab823ce4-655b-4d1d-ba3e-23316d8053dc" starting_base="0" first_name="James" last_name="Gattis" preferred_name="Evan" jersey_number="11"/>
+            </run>
+            <run id="caeaf1e7-3122-4bf0-abd0-5aad459e4fde" hitter_id="3259a7ad-0490-4912-bd86-d06bf3ac91e0" pitcher_id="64ce3453-7eef-469d-9656-c20c4679bcda" inning="7" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="7f92278a-91c4-4c25-9e75-eaff3aed89b3" starting_base="3" first_name="George" last_name="Springer" preferred_name="George" jersey_number="4"/>
+            </run>
+            <run id="e5945ac0-78ec-402b-963e-0d272f0886bf" hitter_id="7f92278a-91c4-4c25-9e75-eaff3aed89b3" pitcher_id="d64cbbbf-b48a-483c-b382-bb4c4aaa966c" inning="8" inning_half="B" type="pitch" hitter_outcome="oGO">
+              <runner id="d77fc18d-e11d-4ce8-b12c-9d08b913cb61" starting_base="3" first_name="Carlos" last_name="Gomez" preferred_name="Carlos" jersey_number="30"/>
+            </run>
+            <run id="176f307c-45c2-4279-9004-74545aa18924" hitter_id="617e6d98-d7dc-49ea-adbd-22e00e3ccc81" pitcher_id="d64cbbbf-b48a-483c-b382-bb4c4aaa966c" inning="8" inning_half="B" type="pitch" hitter_outcome="aROE">
+              <runner id="9d9dd82b-d37e-4484-9ed0-cfa17c1b9104" starting_base="3" first_name="Jacob" last_name="Marisnick" preferred_name="Jake" jersey_number="6"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Athletics" market="Oakland" abbr="OAK" id="27a59d3b-ff7c-48ea-b016-4798f560f5e1" runs="2" hits="8" errors="3">
+          <probable_pitcher last_name="Gray" first_name="Sonny" preferred_name="Sonny" jersey_number="54" id="b004cc6c-f00c-4b5d-917a-ee1abf92179d" win="3" loss="5" era="6.188"/>
+          <starting_pitcher last_name="Gray" first_name="Sonny" preferred_name="Sonny" jersey_number="54" id="b004cc6c-f00c-4b5d-917a-ee1abf92179d" win="3" loss="5" era="6.188"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="2"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="543b029f-c25a-46b2-ac2b-437a60f02576" hitter_id="7028cc9b-6160-426a-b988-f5b69f81a62f" pitcher_id="fc552e8f-e5e0-4060-b018-6babc108507b" inning="1" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="ab7f574f-5228-4809-a6e8-d6482624d148" starting_base="2" first_name="Daniel" last_name="Valencia" preferred_name="Danny" jersey_number="26"/>
+              <runner id="33ebc6ed-4c4a-45d5-9367-8ecd36581e8b" starting_base="3" first_name="Stephen" last_name="Vogt" preferred_name="Stephen" jersey_number="21"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="fc552e8f-e5e0-4060-b018-6babc108507b" status="A" position="P" primary_position="SP" first_name="Lance" last_name="McCullers" preferred_name="Lance" jersey_number="43" win="3" loss="1" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="64ce3453-7eef-469d-9656-c20c4679bcda" status="A" position="P" primary_position="RP" first_name="Ryan" last_name="Dull" preferred_name="Ryan" jersey_number="66" win="1" loss="1" save="0" hold="2" blown_save="0"/>
+          </loss>
+          <save>
+            <player id="a788bab0-4d9b-4e90-806c-80736d0221c4" status="A" position="P" primary_position="RP" first_name="William" last_name="Harris" preferred_name="Will" jersey_number="36" win="0" loss="1" save="1" hold="15" blown_save="0"/>
+          </save>
+          <hold>
+            <player id="331b47f6-d68e-4659-b185-fb4b76abcb59" status="A" position="P" primary_position="RP" first_name="Patrick" last_name="Neshek" preferred_name="Pat" jersey_number="37" win="2" loss="0" save="0" hold="8" blown_save="0"/>
+            <player id="76ad7cd2-86ca-4fa6-918b-519321ba62f1" status="A" position="P" primary_position="RP" first_name="Tony" last_name="Sipp" preferred_name="Tony" jersey_number="29" win="0" loss="2" save="1" hold="6" blown_save="1"/>
+          </hold>
+          <blown_save>
+            <player id="63b96ee5-e212-4b87-a8e5-28913beb7df2" status="A" position="P" primary_position="RP" first_name="Daniel" last_name="Coulombe" preferred_name="Daniel" jersey_number="57" win="0" loss="0" save="0" hold="0" blown_save="1"/>
+          </blown_save>
+        </pitching>
+      </game>
+      <game id="4cb7f401-4f42-4595-85ae-93478da4d69d" status="closed" coverage="full" attendance="37616" duration="2:30" game_number="1" day_night="D" scheduled="2016-06-05T19:05:00+00:00" home_team="d99f919b-1534-4516-8e8a-9cd106c6d8cd" away_team="43a39081-52b4-4f93-ad29-da7f329ea960">
+        <venue id="3f47c1c6-b059-4fa2-9d85-5d37b7000992" name="Globe Life Park in Arlington" market="Texas" capacity="48114" surface="grass" address="1000 Ballpark Way" city="Arlington" state="TX" zip="76011" country="USA"/>
+        <broadcast network="FSSW"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Rangers" market="Texas" abbr="TEX" id="d99f919b-1534-4516-8e8a-9cd106c6d8cd" runs="3" hits="5" errors="1">
+          <probable_pitcher last_name="Holland" first_name="Derek" preferred_name="Derek" jersey_number="45" id="bbf735b4-af04-4ad8-b3e0-ea02dae770c4" win="4" loss="4" era="4.785"/>
+          <starting_pitcher last_name="Holland" first_name="Derek" preferred_name="Derek" jersey_number="45" id="bbf735b4-af04-4ad8-b3e0-ea02dae770c4" win="4" loss="4" era="4.785"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="3"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="ebaf1776-5465-45f2-94a6-6626be901bfc" hitter_id="899814fb-35a0-458a-b54b-641db35ae16b" pitcher_id="cb40edda-8fa3-4813-888f-0f543f6efeaf" inning="5" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="a4f08027-ddc7-4e2d-ac69-9fc4f1c67bfd" starting_base="2" first_name="Mitchell" last_name="Moreland" preferred_name="Mitch" jersey_number="18"/>
+            </run>
+            <run id="8cd789e5-f38d-43eb-8da0-ee3fbc0979cb" hitter_id="86bcc430-09a4-45c0-b42d-56f08e8118e6" pitcher_id="cb40edda-8fa3-4813-888f-0f543f6efeaf" inning="5" inning_half="B" type="pitch" hitter_outcome="oSF">
+              <runner id="85d6d865-97c4-427b-8f4f-eb6dad286e57" starting_base="3" first_name="Elvis" last_name="Andrus" preferred_name="Elvis" jersey_number="1"/>
+            </run>
+            <run id="59d038fc-9015-46cf-84ed-d5ca4a1fe493" hitter_id="75ba17fd-160d-4695-86af-7c614cb8f264" pitcher_id="cb40edda-8fa3-4813-888f-0f543f6efeaf" inning="5" inning_half="B" type="pitch" hitter_outcome="aSAD2">
+              <runner id="899814fb-35a0-458a-b54b-641db35ae16b" starting_base="2" first_name="Jared" last_name="Hoying" preferred_name="Jared" jersey_number="36"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Mariners" market="Seattle" abbr="SEA" id="43a39081-52b4-4f93-ad29-da7f329ea960" runs="2" hits="3" errors="2">
+          <probable_pitcher last_name="Iwakuma" first_name="Hisashi" preferred_name="Hisashi" jersey_number="18" id="cb40edda-8fa3-4813-888f-0f543f6efeaf" win="4" loss="4" era="4.413"/>
+          <starting_pitcher last_name="Iwakuma" first_name="Hisashi" preferred_name="Hisashi" jersey_number="18" id="cb40edda-8fa3-4813-888f-0f543f6efeaf" win="4" loss="4" era="4.413"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="2"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="386d5d30-b7c5-45bc-b418-37c5cd999f41" hitter_id="01eaff59-9b34-47fd-af64-54b2e6f22628" pitcher_id="bbf735b4-af04-4ad8-b3e0-ea02dae770c4" inning="4" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="01eaff59-9b34-47fd-af64-54b2e6f22628" starting_base="0" first_name="Nelson" last_name="Cruz" preferred_name="Nelson" jersey_number="23"/>
+              <runner id="ad04a64e-057a-4576-81bd-28bf71f3a6ea" starting_base="1" first_name="Robinson" last_name="Cano" preferred_name="Robinson" jersey_number="22"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="bbf735b4-af04-4ad8-b3e0-ea02dae770c4" status="A" position="P" primary_position="SP" first_name="Derek" last_name="Holland" preferred_name="Derek" jersey_number="45" win="5" loss="4" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="cb40edda-8fa3-4813-888f-0f543f6efeaf" status="A" position="P" primary_position="SP" first_name="Hisashi" last_name="Iwakuma" preferred_name="Hisashi" jersey_number="18" win="4" loss="5" save="0" hold="0" blown_save="0"/>
+          </loss>
+          <save>
+            <player id="ee01fdc0-ef9d-4352-9ad9-b1331ce88f09" status="A" position="P" primary_position="RP" first_name="Samuel" last_name="Dyson" preferred_name="Sam" jersey_number="47" win="0" loss="1" save="7" hold="10" blown_save="1"/>
+          </save>
+          <hold>
+            <player id="b469052e-5b3b-42fa-bfe5-bdd91c6ccee5" status="A" position="P" primary_position="RP" first_name="Jacob" last_name="Diekman" preferred_name="Jake" jersey_number="41" win="0" loss="1" save="0" hold="15" blown_save="0"/>
+            <player id="d7eed2b7-584e-42d8-9e45-a27944434ebb" status="A" position="P" primary_position="RP" first_name="Matthew" last_name="Bush" preferred_name="Matt" jersey_number="51" win="1" loss="0" save="0" hold="4" blown_save="0"/>
+          </hold>
+        </pitching>
+      </game>
+      <game id="032c1851-1ae3-47df-ba8b-9a5534ea9e63" status="inprogress" coverage="full" game_number="1" day_night="N" scheduled="2016-06-06T01:10:00+00:00" home_team="d52d5339-cbdd-43f3-9dfa-a42fd588b9a3" away_team="29dd9a87-5bcc-4774-80c3-7f50d985068b">
+        <venue id="0ab45d79-5475-4308-9f94-74b0c185ee6f" name="PETCO Park" market="San Diego" capacity="42302" surface="grass" address="100 Park Blvd." city="San Diego" state="CA" zip="92101" country="USA"/>
+        <broadcast network="FSSD"/>
+        <outcome type="pitch" current_inning="4" current_inning_half="B">
+          <count strikes="2" balls="1" outs="0" inning="4" inning_half="B" half_over="false"/>
+          <hitter id="f4c666e5-2a05-4258-8ddc-da6e0cffdb57" outcome_id="bB" ab_over="false" last_name="Kemp" first_name="Matthew" preferred_name="Matt" jersey_number="27"/>
+          <pitcher id="106c933c-0203-4e5a-bd06-f8bc420b9b9f" last_name="Gray" first_name="Jonathan" preferred_name="Jon" jersey_number="55"/>
+          <runners>
+            <runner id="8f6f5bdf-9712-472e-8af5-12d5fb1e52e8" starting_base="2" ending_base="2" out="false" last_name="Myers" first_name="William" preferred_name="Wil" jersey_number="4"/>
+          </runners>
+        </outcome>
+        <home name="Padres" market="San Diego" abbr="SD" id="d52d5339-cbdd-43f3-9dfa-a42fd588b9a3" runs="1" hits="3" errors="0">
+          <probable_pitcher last_name="Perdomo" first_name="Luis" preferred_name="Luis" jersey_number="61" id="65fd4703-1444-4e2c-b2a2-eb51a860dc56" win="1" loss="1" era="10.038"/>
+          <starting_pitcher last_name="Perdomo" first_name="Luis" preferred_name="Luis" jersey_number="61" id="65fd4703-1444-4e2c-b2a2-eb51a860dc56" win="1" loss="1" era="10.038"/>
+          <current_pitcher last_name="Perdomo" first_name="Luis" preferred_name="Luis" jersey_number="61" id="65fd4703-1444-4e2c-b2a2-eb51a860dc56" win="1" loss="1" era="10.038"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="1"/>
+          </scoring>
+          <runs>
+            <run id="014e7282-dbc8-47e1-8131-0ae042521dff" hitter_id="8f6f5bdf-9712-472e-8af5-12d5fb1e52e8" pitcher_id="106c933c-0203-4e5a-bd06-f8bc420b9b9f" inning="4" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="c9b5fef5-5353-486a-84b6-d791fbc79b73" starting_base="1" first_name="Jonathan" last_name="Jay" preferred_name="Jon" jersey_number="24"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Rockies" market="Colorado" abbr="COL" id="29dd9a87-5bcc-4774-80c3-7f50d985068b" runs="3" hits="5" errors="0">
+          <probable_pitcher last_name="Gray" first_name="Jonathan" preferred_name="Jon" jersey_number="55" id="106c933c-0203-4e5a-bd06-f8bc420b9b9f" win="3" loss="2" era="5.757"/>
+          <starting_pitcher last_name="Gray" first_name="Jonathan" preferred_name="Jon" jersey_number="55" id="106c933c-0203-4e5a-bd06-f8bc420b9b9f" win="3" loss="2" era="5.757"/>
+          <current_pitcher last_name="Gray" first_name="Jonathan" preferred_name="Jon" jersey_number="55" id="106c933c-0203-4e5a-bd06-f8bc420b9b9f" win="3" loss="2" era="5.757"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="2"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="1"/>
+            <inning number="4" sequence="4" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="83b7ec4a-d4dd-46c7-b120-d433a2cc6e53" hitter_id="5fec650f-de86-43d2-9efb-32af34a4d5a4" pitcher_id="65fd4703-1444-4e2c-b2a2-eb51a860dc56" inning="1" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="5fec650f-de86-43d2-9efb-32af34a4d5a4" starting_base="0" first_name="Carlos" last_name="Gonzalez" preferred_name="Carlos" jersey_number="5"/>
+              <runner id="aec77ff1-c238-449c-9af6-ed76ff9dd702" starting_base="2" first_name="Nolan" last_name="Arenado" preferred_name="Nolan" jersey_number="28"/>
+            </run>
+            <run id="67163b17-e0c1-429d-977d-4d4be24623de" hitter_id="5fec650f-de86-43d2-9efb-32af34a4d5a4" pitcher_id="65fd4703-1444-4e2c-b2a2-eb51a860dc56" inning="3" inning_half="T" type="pitch" hitter_outcome="oFC">
+              <runner id="6d5ea773-5f3d-470e-b572-b59fc278f892" starting_base="3" first_name="Charles" last_name="Blackmon" preferred_name="Charlie" jersey_number="19"/>
+            </run>
+          </runs>
+        </away>
+      </game>
+      <game id="cdfac921-48b1-42a1-8959-6ca7f0b2ae03" status="closed" coverage="full" attendance="29086" duration="3:09" game_number="1" day_night="D" scheduled="2016-06-05T17:10:00+00:00" home_team="575c19b7-4052-41c2-9f0a-1c5813d02f99" away_team="47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8">
+        <venue id="ef9a5eef-06c6-4963-ac70-7fd02c8c8d42" name="Comerica Park" market="Detroit" capacity="41681" surface="grass" address="2100 Woodward Avenue" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <broadcast network="FS-D"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Tigers" market="Detroit" abbr="DET" id="575c19b7-4052-41c2-9f0a-1c5813d02f99" runs="5" hits="12" errors="0">
+          <probable_pitcher last_name="Verlander" first_name="Justin" preferred_name="Justin" jersey_number="35" id="2fe6cb9b-c41e-4ee2-9b22-f8b27bf6c5be" win="4" loss="5" era="4.106"/>
+          <starting_pitcher last_name="Verlander" first_name="Justin" preferred_name="Justin" jersey_number="35" id="2fe6cb9b-c41e-4ee2-9b22-f8b27bf6c5be" win="4" loss="5" era="4.106"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="1"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="4"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="579249cc-4613-469c-b1c1-03592c1da7bc" hitter_id="0fad748a-3ed8-4787-97db-845155c8e7ce" pitcher_id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" inning="3" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="a5ae5017-4659-4743-bc21-2ce0ed6bc7cd" starting_base="1" first_name="Cameron" last_name="Maybin" preferred_name="Cameron" jersey_number="4"/>
+            </run>
+            <run id="184eaf39-9b1b-45f3-9266-dceac919ece3" hitter_id="f423faea-d0e3-49b6-b347-52ec5cfac66a" pitcher_id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" inning="5" inning_half="B" type="pitch" hitter_outcome="bB">
+              <runner id="8189ef68-447c-4573-94d5-8d690abbcfbf" starting_base="3" first_name="Ian" last_name="Kinsler" preferred_name="Ian" jersey_number="3"/>
+            </run>
+            <run id="75aeeaa3-c1f5-4ba2-bcc3-d569fe3f9aeb" hitter_id="169ed0b1-e34b-4f4b-925b-f3288f24a5e7" pitcher_id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" inning="5" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="a5ae5017-4659-4743-bc21-2ce0ed6bc7cd" starting_base="3" first_name="Cameron" last_name="Maybin" preferred_name="Cameron" jersey_number="4"/>
+            </run>
+            <run id="c6f3bf54-b7e7-47bf-aa70-415934360b07" hitter_id="2847c4e0-01be-46bd-992e-701ee447e3f5" pitcher_id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" inning="5" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="f423faea-d0e3-49b6-b347-52ec5cfac66a" starting_base="2" first_name="Julio" last_name="Martinez" preferred_name="J.D." jersey_number="28"/>
+              <runner id="0fad748a-3ed8-4787-97db-845155c8e7ce" starting_base="3" first_name="Jose" last_name="Cabrera" preferred_name="Miguel" jersey_number="24"/>
+            </run>
+          </runs>
+        </home>
+        <away name="White Sox" market="Chicago" abbr="CWS" id="47f490cd-2f58-4ef7-9dfd-2ad6ba6c1ae8" runs="2" hits="5" errors="0">
+          <probable_pitcher last_name="Quintana" first_name="Jose" preferred_name="Jose" jersey_number="62" id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" win="5" loss="5" era="2.125"/>
+          <starting_pitcher last_name="Quintana" first_name="Jose" preferred_name="Jose" jersey_number="62" id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" win="5" loss="5" era="2.125"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="4a4fc916-2bf9-4eb0-bd0d-c5645751ee7a" hitter_id="b59c6ed2-061e-4c9b-b624-2d1aee74853c" pitcher_id="2fe6cb9b-c41e-4ee2-9b22-f8b27bf6c5be" inning="1" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="b59c6ed2-061e-4c9b-b624-2d1aee74853c" starting_base="0" first_name="Jose" last_name="Abreu" preferred_name="Jose" jersey_number="79"/>
+            </run>
+            <run id="4194db52-79ab-48c4-9941-7391b79820ed" hitter_id="c401dbb6-2208-45f4-9947-db11881daf4f" pitcher_id="2fe6cb9b-c41e-4ee2-9b22-f8b27bf6c5be" inning="6" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="c401dbb6-2208-45f4-9947-db11881daf4f" starting_base="0" first_name="Todd" last_name="Frazier" preferred_name="Todd" jersey_number="21"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="2fe6cb9b-c41e-4ee2-9b22-f8b27bf6c5be" status="A" position="P" primary_position="SP" first_name="Justin" last_name="Verlander" preferred_name="Justin" jersey_number="35" win="5" loss="5" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="b1e3b804-0022-40bc-8f53-8c82ee4eb1b9" status="A" position="P" primary_position="SP" first_name="Jose" last_name="Quintana" preferred_name="Jose" jersey_number="62" win="5" loss="6" save="0" hold="0" blown_save="0"/>
+          </loss>
+          <save>
+            <player id="706e2892-cf0e-48f1-ab3a-68237959515c" status="A" position="P" primary_position="RP" first_name="Francisco" last_name="Rodriguez" preferred_name="Francisco" jersey_number="57" win="0" loss="0" save="17" hold="0" blown_save="1"/>
+          </save>
+          <hold>
+            <player id="5106c749-4185-438f-b7b2-0198b14a57cb" status="A" position="P" primary_position="SP" first_name="Shane" last_name="Greene" preferred_name="Shane" jersey_number="61" win="1" loss="2" save="1" hold="2" blown_save="0"/>
+          </hold>
+        </pitching>
+      </game>
+      <game id="44a96555-c121-45a2-bc10-e73d32e53db5" status="closed" coverage="full" attendance="47950" duration="3:17" game_number="1" day_night="D" scheduled="2016-06-05T20:10:00+00:00" home_team="ef64da7f-cfaf-4300-87b0-9313386b977c" away_team="12079497-e414-450a-8bf2-29f91de646bf">
+        <venue id="66a19c3d-24fe-477d-bee7-c6ef1b98352f" name="Dodger Stadium" market="Los Angeles" capacity="56000" surface="grass" address="1000 Vin Scully Avenue" city="Los Angeles" state="CA" zip="90012" country="USA"/>
+        <broadcast network="SportsNet LA"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Dodgers" market="Los Angeles" abbr="LAD" id="ef64da7f-cfaf-4300-87b0-9313386b977c" runs="12" hits="14" errors="0">
+          <probable_pitcher last_name="Kazmir" first_name="Scott" preferred_name="Scott" jersey_number="29" id="421311da-1096-454a-b98e-bf47070d1b8f" win="4" loss="3" era="4.382"/>
+          <starting_pitcher last_name="Kazmir" first_name="Scott" preferred_name="Scott" jersey_number="29" id="421311da-1096-454a-b98e-bf47070d1b8f" win="4" loss="3" era="4.382"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="2"/>
+            <inning number="2" sequence="2" runs="1"/>
+            <inning number="3" sequence="3" runs="4"/>
+            <inning number="4" sequence="4" runs="1"/>
+            <inning number="5" sequence="5" runs="1"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="3"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="f7ee5e91-03b2-4527-8f54-dd1837945e8b" hitter_id="10154eef-8834-48e0-97e7-d7436367534c" pitcher_id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" inning="1" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="3742039b-7c2a-4f75-be72-d4478ed83a58" starting_base="1" first_name="Trayce" last_name="Thompson" preferred_name="Trayce" jersey_number="21"/>
+            </run>
+            <run id="d76aa4e3-9c31-477a-800f-6ea4719003bd" hitter_id="1da8f60d-0741-4b61-811c-1acca32b4393" pitcher_id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" inning="1" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="10154eef-8834-48e0-97e7-d7436367534c" starting_base="2" first_name="Adrian" last_name="Gonzalez" preferred_name="Adrian" jersey_number="23"/>
+            </run>
+            <run id="79cfc86f-133a-4740-8eb8-8fde732c9bf6" hitter_id="8a7b7092-4e7b-4112-92bf-fc5d72a83d17" pitcher_id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" inning="2" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="8a7b7092-4e7b-4112-92bf-fc5d72a83d17" starting_base="0" first_name="Enrique" last_name="Hernandez" preferred_name="Enrique" jersey_number="14"/>
+            </run>
+            <run id="68937e4f-e463-468f-895a-a772d0b0c24f" hitter_id="43a9d631-5673-4059-9b25-d59290bc32c3" pitcher_id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" inning="3" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="3742039b-7c2a-4f75-be72-d4478ed83a58" starting_base="3" first_name="Trayce" last_name="Thompson" preferred_name="Trayce" jersey_number="21"/>
+            </run>
+            <run id="e92e1932-0ac2-4a55-9efd-eb37612b571c" hitter_id="643547ae-4a60-4135-b290-88a1b2160cbb" pitcher_id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" inning="3" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="643547ae-4a60-4135-b290-88a1b2160cbb" starting_base="0" first_name="Yasmani" last_name="Grandal" preferred_name="Yasmani" jersey_number="9"/>
+              <runner id="43a9d631-5673-4059-9b25-d59290bc32c3" starting_base="1" first_name="Joc" last_name="Pederson" preferred_name="Joc" jersey_number="31"/>
+              <runner id="1da8f60d-0741-4b61-811c-1acca32b4393" starting_base="3" first_name="Howie" last_name="Kendrick" preferred_name="Howie" jersey_number="47"/>
+            </run>
+            <run id="372ca848-0b40-4f33-8064-f691b78fc7be" hitter_id="ca159e78-05a9-410a-be7b-3ebad5496a88" pitcher_id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" inning="4" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="ca159e78-05a9-410a-be7b-3ebad5496a88" starting_base="0" first_name="Corey" last_name="Seager" preferred_name="Corey" jersey_number="5"/>
+            </run>
+            <run id="bad2b081-5e58-4585-ae34-5b072ba628cd" hitter_id="ca159e78-05a9-410a-be7b-3ebad5496a88" pitcher_id="b353da48-f6de-4deb-ba5f-a4148ec85a7a" inning="5" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="421311da-1096-454a-b98e-bf47070d1b8f" starting_base="2" first_name="Scott" last_name="Kazmir" preferred_name="Scott" jersey_number="29"/>
+            </run>
+            <run id="dc46a7ca-17ea-4246-9913-c7d673582d05" hitter_id="16c0d07f-94f0-4fec-8cfa-4703ec344865" pitcher_id="6e1f5294-7f2a-4c1c-b2e5-0fedbc10c505" inning="7" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="643547ae-4a60-4135-b290-88a1b2160cbb" starting_base="1" first_name="Yasmani" last_name="Grandal" preferred_name="Yasmani" jersey_number="9"/>
+            </run>
+            <run id="cefd2572-95bf-4f2e-9aee-1271d9b70ed6" hitter_id="ca159e78-05a9-410a-be7b-3ebad5496a88" pitcher_id="6e1f5294-7f2a-4c1c-b2e5-0fedbc10c505" inning="7" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="ca159e78-05a9-410a-be7b-3ebad5496a88" starting_base="0" first_name="Corey" last_name="Seager" preferred_name="Corey" jersey_number="5"/>
+              <runner id="16c0d07f-94f0-4fec-8cfa-4703ec344865" starting_base="2" first_name="Chase" last_name="Utley" preferred_name="Chase" jersey_number="26"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Braves" market="Atlanta" abbr="ATL" id="12079497-e414-450a-8bf2-29f91de646bf" runs="6" hits="12" errors="1">
+          <probable_pitcher last_name="Wisler" first_name="Matthew" preferred_name="Matt" jersey_number="37" id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" win="2" loss="5" era="3.161"/>
+          <starting_pitcher last_name="Wisler" first_name="Matthew" preferred_name="Matt" jersey_number="37" id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" win="2" loss="5" era="3.161"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="2"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="2"/>
+            <inning number="9" sequence="9" runs="1"/>
+          </scoring>
+          <runs>
+            <run id="b0f84556-f95c-471f-8730-268c0f859fd0" hitter_id="8fbf7c62-485e-457e-b69f-7bb27984559e" pitcher_id="421311da-1096-454a-b98e-bf47070d1b8f" inning="1" inning_half="T" type="pitch" hitter_outcome="aD">
+              <runner id="a4ae8b09-e16b-479e-899d-6e92178c214b" starting_base="2" first_name="Chase" last_name="d'Arnaud" preferred_name="Chase" jersey_number="23"/>
+            </run>
+            <run id="2d228971-c8c0-489b-971c-1dcee18389a7" hitter_id="9880d4de-4cd4-47a5-8996-61d52a35ea2a" pitcher_id="421311da-1096-454a-b98e-bf47070d1b8f" inning="1" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="8fbf7c62-485e-457e-b69f-7bb27984559e" starting_base="2" first_name="Jeffrey" last_name="Francoeur" preferred_name="Jeff" jersey_number="18"/>
+            </run>
+            <run id="66243efb-6520-4826-9205-b655363990d3" hitter_id="9880d4de-4cd4-47a5-8996-61d52a35ea2a" pitcher_id="421311da-1096-454a-b98e-bf47070d1b8f" inning="6" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="8fbf7c62-485e-457e-b69f-7bb27984559e" starting_base="2" first_name="Jeffrey" last_name="Francoeur" preferred_name="Jeff" jersey_number="18"/>
+            </run>
+            <run id="fa698495-734c-4b46-a73d-9051754d4c29" hitter_id="223a12e0-a5aa-41ed-8b7f-f99a21d8d59a" pitcher_id="785c0240-f785-4090-a6ac-9e858f7dc245" inning="8" inning_half="T" type="pitch" hitter_outcome="aD">
+              <runner id="9880d4de-4cd4-47a5-8996-61d52a35ea2a" starting_base="1" first_name="Nicholas" last_name="Markakis" preferred_name="Nick" jersey_number="22"/>
+            </run>
+            <run id="923a13eb-7b57-4ed8-a289-1b66d8a99868" hitter_id="ff750663-5eb3-4006-9d6a-2660397ff595" pitcher_id="785c0240-f785-4090-a6ac-9e858f7dc245" inning="8" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="223a12e0-a5aa-41ed-8b7f-f99a21d8d59a" starting_base="2" first_name="Adonis" last_name="Garcia" preferred_name="Adonis" jersey_number="13"/>
+            </run>
+            <run id="8233663b-e1f1-4c31-a4dc-8dbeb9eba32f" hitter_id="3bea7a07-05bd-4316-b7d0-484fe0e332d1" pitcher_id="d3b384ba-eed2-4abb-885e-2a3077fec4c9" inning="9" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="3bea7a07-05bd-4316-b7d0-484fe0e332d1" starting_base="0" first_name="Brandon" last_name="Snyder" preferred_name="Brandon" jersey_number="19"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="421311da-1096-454a-b98e-bf47070d1b8f" status="A" position="P" primary_position="SP" first_name="Scott" last_name="Kazmir" preferred_name="Scott" jersey_number="29" win="5" loss="3" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="58c2ee6d-9f45-42ff-88ec-358d882a8bb5" status="A" position="P" primary_position="SP" first_name="Matthew" last_name="Wisler" preferred_name="Matt" jersey_number="37" win="2" loss="6" save="1" hold="0" blown_save="0"/>
+          </loss>
+        </pitching>
+      </game>
+      <game id="c6f918c3-4860-4506-8455-7829a5b7574e" status="closed" coverage="full" attendance="21422" duration="3:27" game_number="1" day_night="D" scheduled="2016-06-05T17:10:00+00:00" home_team="c874a065-c115-4e7d-b0f0-235584fb0e6f" away_team="d89bed32-3aee-4407-99e3-4103641b999a">
+        <venue id="f102d8fb-de67-4b86-9053-8b55f578d45c" name="Great American Ball Park" market="Cincinnati" capacity="42319" surface="grass" address="100 Joe Nuxhall Way" city="Cincinnati" state="OH" zip="45202" country="USA"/>
+        <broadcast network="FS-O"/>
+        <final inning="9" inning_half="B"/>
+        <home name="Reds" market="Cincinnati" abbr="CIN" id="c874a065-c115-4e7d-b0f0-235584fb0e6f" runs="9" hits="12" errors="2">
+          <probable_pitcher last_name="Moscot" first_name="Jon" preferred_name="Jon" jersey_number="46" id="2253a4e9-6acb-4a2f-9f3c-7eb46dbc01d4" win="0" loss="3" era="7.132"/>
+          <starting_pitcher last_name="Moscot" first_name="Jon" preferred_name="Jon" jersey_number="46" id="2253a4e9-6acb-4a2f-9f3c-7eb46dbc01d4" win="0" loss="3" era="7.132"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="5"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="3"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="1"/>
+          </scoring>
+          <runs>
+            <run id="ac4f644c-fa12-4fdb-a5e3-7ed693833494" hitter_id="a2c0b604-4c55-444e-8de1-13530661f11f" pitcher_id="8a105ca8-aecd-4ef7-b6ad-efcecf934d01" inning="2" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="27e91ba7-4a19-4548-91fc-8d70a29b9b8a" starting_base="1" first_name="Eugenio" last_name="Suarez" preferred_name="Eugenio" jersey_number="7"/>
+              <runner id="52163b85-2956-4777-b31a-b7d1ce217eb0" starting_base="2" first_name="Adam" last_name="Duvall" preferred_name="Adam" jersey_number="23"/>
+              <runner id="58c17caa-c048-4336-b296-fa4eaf039eac" starting_base="3" first_name="Jay" last_name="Bruce" preferred_name="Jay" jersey_number="32"/>
+            </run>
+            <run id="2ef4aa43-5dd4-4271-9b39-dabfd09da07f" hitter_id="ceb4a969-573e-4afb-aa79-06a27ac83d69" pitcher_id="8a105ca8-aecd-4ef7-b6ad-efcecf934d01" inning="2" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="7922c705-97b9-494f-8565-89423d728aa5" starting_base="2" first_name="Tucker" last_name="Barnhart" preferred_name="Tucker" jersey_number="16"/>
+              <runner id="a2c0b604-4c55-444e-8de1-13530661f11f" starting_base="3" first_name="Ivan" last_name="De Jesus" preferred_name="Ivan" jersey_number="3"/>
+            </run>
+            <run id="2a6b1629-852a-46d0-9319-148735ed9817" hitter_id="58c17caa-c048-4336-b296-fa4eaf039eac" pitcher_id="4a730c80-2ebd-4eeb-8984-8c6873054fd6" inning="7" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="58c17caa-c048-4336-b296-fa4eaf039eac" starting_base="0" first_name="Jay" last_name="Bruce" preferred_name="Jay" jersey_number="32"/>
+              <runner id="cafd9371-c7fc-4c7d-9364-0a795e0d617e" starting_base="1" first_name="Brandon" last_name="Phillips" preferred_name="Brandon" jersey_number="4"/>
+              <runner id="f6a52aa9-6607-445b-a6cb-34a73b1859f9" starting_base="3" first_name="Joseph" last_name="Votto" preferred_name="Joey" jersey_number="19"/>
+            </run>
+            <run id="4795c62c-0772-4695-99a7-397eccac0d0c" hitter_id="cafd9371-c7fc-4c7d-9364-0a795e0d617e" pitcher_id="26df0469-37c0-4ca7-97df-ce0a5247e7bb" inning="9" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="ceb4a969-573e-4afb-aa79-06a27ac83d69" starting_base="2" first_name="Tyler" last_name="Holt" preferred_name="Tyler" jersey_number="40"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Nationals" market="Washington" abbr="WSH" id="d89bed32-3aee-4407-99e3-4103641b999a" runs="10" hits="14" errors="1">
+          <probable_pitcher last_name="Roark" first_name="Tanner" preferred_name="Tanner" jersey_number="57" id="8a105ca8-aecd-4ef7-b6ad-efcecf934d01" win="4" loss="4" era="2.7"/>
+          <starting_pitcher last_name="Roark" first_name="Tanner" preferred_name="Tanner" jersey_number="57" id="8a105ca8-aecd-4ef7-b6ad-efcecf934d01" win="4" loss="4" era="2.7"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="5"/>
+            <inning number="5" sequence="5" runs="3"/>
+            <inning number="6" sequence="6" runs="2"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="1c0517a3-9709-4c4d-965c-f1cf539dbbbe" hitter_id="eba6953d-efe4-46d5-91ca-054fc24e4315" pitcher_id="2253a4e9-6acb-4a2f-9f3c-7eb46dbc01d4" inning="4" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="eba6953d-efe4-46d5-91ca-054fc24e4315" starting_base="0" first_name="Daniel" last_name="Murphy" preferred_name="Daniel" jersey_number="20"/>
+              <runner id="f3caeac6-343a-4a01-b5a3-85c5485c57cb" starting_base="1" first_name="Bryce" last_name="Harper" preferred_name="Bryce" jersey_number="34"/>
+            </run>
+            <run id="c7345dab-f969-4828-b1a5-46cc4165735a" hitter_id="7566a63c-6c8e-4d49-bac9-592d82f12ea2" pitcher_id="2253a4e9-6acb-4a2f-9f3c-7eb46dbc01d4" inning="4" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="7566a63c-6c8e-4d49-bac9-592d82f12ea2" starting_base="0" first_name="Wilson" last_name="Ramos" preferred_name="Wilson" jersey_number="40"/>
+            </run>
+            <run id="8125bbc5-d7bc-4967-9b83-14e9a4e83253" hitter_id="e2c49a54-87c5-41fe-a4c8-8b7d94285101" pitcher_id="2253a4e9-6acb-4a2f-9f3c-7eb46dbc01d4" inning="4" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="08357f29-61c8-4114-9170-6990930b3237" starting_base="2" first_name="Clinton" last_name="Robinson" preferred_name="Clint" jersey_number="25"/>
+            </run>
+            <run id="75898c03-4a5d-41f9-87d2-52890485a907" hitter_id="f4b89e5f-baae-4dd4-87b2-1cd75889b48b" pitcher_id="41a2a06d-88aa-49ec-943a-b6f23a1fe5f5" inning="4" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="f9e77907-22a6-44dd-81f3-21c1dbdc06c9" starting_base="3" first_name="Daniel" last_name="Espinosa" preferred_name="Danny" jersey_number="8"/>
+            </run>
+            <run id="3dc5b8ca-0258-4b95-978c-07957b9790aa" hitter_id="78712aa3-b342-48ee-a0cc-ab90d5dd3618" pitcher_id="41a2a06d-88aa-49ec-943a-b6f23a1fe5f5" inning="5" inning_half="T" type="pitch" hitter_outcome="oFC">
+              <runner id="eba6953d-efe4-46d5-91ca-054fc24e4315" starting_base="2" first_name="Daniel" last_name="Murphy" preferred_name="Daniel" jersey_number="20"/>
+              <runner id="f3caeac6-343a-4a01-b5a3-85c5485c57cb" starting_base="3" first_name="Bryce" last_name="Harper" preferred_name="Bryce" jersey_number="34"/>
+            </run>
+            <run id="48f037d9-9443-4e80-9533-d71711f1375d" hitter_id="08357f29-61c8-4114-9170-6990930b3237" pitcher_id="41a2a06d-88aa-49ec-943a-b6f23a1fe5f5" inning="5" inning_half="T" type="pitch" hitter_outcome="oSF">
+              <runner id="7566a63c-6c8e-4d49-bac9-592d82f12ea2" starting_base="3" first_name="Wilson" last_name="Ramos" preferred_name="Wilson" jersey_number="40"/>
+            </run>
+            <run id="dbf52296-b363-46db-a59c-b5ecaa094735" hitter_id="eba6953d-efe4-46d5-91ca-054fc24e4315" pitcher_id="cef45d58-1030-4ae0-8a37-3a10ade752be" inning="6" inning_half="T" type="pitch" hitter_outcome="aSAD2">
+              <runner id="f4b89e5f-baae-4dd4-87b2-1cd75889b48b" starting_base="3" first_name="Ben" last_name="Revere" preferred_name="Ben" jersey_number="9"/>
+            </run>
+            <run id="34c7b7be-fef6-4a47-9f6e-936158eb37fb" hitter_id="7566a63c-6c8e-4d49-bac9-592d82f12ea2" pitcher_id="cef45d58-1030-4ae0-8a37-3a10ade752be" inning="6" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="eba6953d-efe4-46d5-91ca-054fc24e4315" starting_base="2" first_name="Daniel" last_name="Murphy" preferred_name="Daniel" jersey_number="20"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="f5dd591a-9376-4632-8363-cec7a41fe0fa" status="A" position="P" primary_position="RP" first_name="Samuel" last_name="Solis" preferred_name="Sammy" jersey_number="36" win="1" loss="1" save="0" hold="2" blown_save="1"/>
+          </win>
+          <loss>
+            <player id="41a2a06d-88aa-49ec-943a-b6f23a1fe5f5" status="A" position="P" primary_position="SP" first_name="Daniel" last_name="Wright" preferred_name="Daniel" jersey_number="41" win="0" loss="2" save="0" hold="0" blown_save="0"/>
+          </loss>
+          <save>
+            <player id="26df0469-37c0-4ca7-97df-ce0a5247e7bb" status="A" position="P" primary_position="RP" first_name="Jonathan" last_name="Papelbon" preferred_name="Jonathan" jersey_number="58" win="0" loss="2" save="15" hold="0" blown_save="2"/>
+          </save>
+          <hold>
+            <player id="01920ac1-60d3-4592-baec-04336c17105d" status="A" position="P" primary_position="RP" first_name="Shawn" last_name="Kelley" preferred_name="Shawn" jersey_number="27" win="1" loss="0" save="0" hold="5" blown_save="0"/>
+          </hold>
+        </pitching>
+      </game>
+      <game id="4f02fe10-686a-426c-ad8e-704a9eba5919" status="closed" coverage="full" attendance="41596" duration="3:00" game_number="1" day_night="D" scheduled="2016-06-05T18:20:00+00:00" home_team="55714da8-fcaf-4574-8443-59bfb511a524" away_team="25507be1-6a68-4267-bd82-e097d94b359b">
+        <venue id="53f8eb0d-a361-4a7a-930b-2f8735ea0698" name="Wrigley Field" market="Chicago" capacity="41072" surface="grass" address="1060 West Addison Street" city="Chicago" state="IL" zip="60613" country="USA"/>
+        <broadcast network="CSN"/>
+        <final inning="9" inning_half="B"/>
+        <home name="Cubs" market="Chicago" abbr="CHC" id="55714da8-fcaf-4574-8443-59bfb511a524" runs="2" hits="5" errors="0">
+          <probable_pitcher last_name="Arrieta" first_name="Jacob" preferred_name="Jake" jersey_number="49" id="772dc88a-0c6d-40c3-b176-ed8a791bf108" win="9" loss="0" era="1.56"/>
+          <starting_pitcher last_name="Arrieta" first_name="Jacob" preferred_name="Jake" jersey_number="49" id="772dc88a-0c6d-40c3-b176-ed8a791bf108" win="9" loss="0" era="1.56"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="1"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="ec3c438c-29ad-4fec-bf14-87d439bf5108" hitter_id="772dc88a-0c6d-40c3-b176-ed8a791bf108" pitcher_id="0764772b-e8ab-42b3-9ee4-2b61af785e75" inning="2" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="f695700e-36bb-46be-aad6-92c68f73e61e" starting_base="1" first_name="Miguel" last_name="Montero" preferred_name="Miguel" jersey_number="47"/>
+            </run>
+            <run id="dfced5fb-f2e0-4ab0-bff2-b99944063f44" hitter_id="497c4595-bd0f-4a9e-b9cf-cb2eacb735bb" pitcher_id="0764772b-e8ab-42b3-9ee4-2b61af785e75" inning="6" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="497c4595-bd0f-4a9e-b9cf-cb2eacb735bb" starting_base="0" first_name="Ednel" last_name="Baez" preferred_name="Javier" jersey_number="9"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Diamondbacks" market="Arizona" abbr="ARI" id="25507be1-6a68-4267-bd82-e097d94b359b" runs="3" hits="10" errors="0">
+          <probable_pitcher last_name="Corbin" first_name="Patrick" preferred_name="Patrick" jersey_number="46" id="0764772b-e8ab-42b3-9ee4-2b61af785e75" win="2" loss="5" era="4.959"/>
+          <starting_pitcher last_name="Corbin" first_name="Patrick" preferred_name="Patrick" jersey_number="46" id="0764772b-e8ab-42b3-9ee4-2b61af785e75" win="2" loss="5" era="4.959"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="2"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="1"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="362245bb-033b-47cb-9a5f-2dd85e818118" hitter_id="5fb27d81-527a-4e98-b0f3-efdc52f974c8" pitcher_id="772dc88a-0c6d-40c3-b176-ed8a791bf108" inning="2" inning_half="T" type="pitch" hitter_outcome="aD">
+              <runner id="3e39fe20-6dca-4894-807b-1ce76ff93e29" starting_base="1" first_name="Christopher" last_name="Owings" preferred_name="Chris" jersey_number="16"/>
+              <runner id="63df7794-746c-4869-8e54-0addccbb376f" starting_base="2" first_name="Christopher" last_name="Herrmann" preferred_name="Chris" jersey_number="10"/>
+            </run>
+            <run id="7d4688b9-ef15-4e45-8bd7-b1aee06d8209" hitter_id="7c9c97fd-7a89-49e1-830b-0274a5c2209a" pitcher_id="772dc88a-0c6d-40c3-b176-ed8a791bf108" inning="5" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="468c82b9-425a-4986-a862-e1ae9de32a7c" starting_base="2" first_name="Michael" last_name="Bourn" preferred_name="Michael" jersey_number="1"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="0764772b-e8ab-42b3-9ee4-2b61af785e75" status="A" position="P" primary_position="SP" first_name="Patrick" last_name="Corbin" preferred_name="Patrick" jersey_number="46" win="3" loss="5" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="772dc88a-0c6d-40c3-b176-ed8a791bf108" status="A" position="P" primary_position="SP" first_name="Jacob" last_name="Arrieta" preferred_name="Jake" jersey_number="49" win="9" loss="1" save="0" hold="0" blown_save="0"/>
+          </loss>
+          <save>
+            <player id="52b785c2-1b9f-439a-a4e0-1e4f1a273507" status="A" position="P" primary_position="RP" first_name="Brad" last_name="Ziegler" preferred_name="Brad" jersey_number="29" win="1" loss="2" save="11" hold="0" blown_save="0"/>
+          </save>
+          <hold>
+            <player id="e057c52e-d17b-4774-8e0a-5ea4f19c0a3a" status="A" position="P" primary_position="RP" first_name="Tyler" last_name="Clippard" preferred_name="Tyler" jersey_number="19" win="2" loss="2" save="1" hold="6" blown_save="0"/>
+          </hold>
+        </pitching>
+      </game>
+      <game id="a1681ab8-326a-40f5-9888-a447aff0e53e" status="closed" coverage="full" attendance="28196" duration="2:17" game_number="1" day_night="D" scheduled="2016-06-05T17:10:00+00:00" home_team="03556285-bdbb-4576-a06d-42f71f46ddc5" away_team="f246a5e5-afdb-479c-9aaa-c68beeda7af6">
+        <venue id="d5a66fb3-ff26-4f36-910c-3df5cedb36b3" name="Marlins Park" market="Miami" capacity="36742" surface="grass" address="501 Marlins Way" city="Miami" state="FL" zip="33125" country="USA"/>
+        <broadcast network="FS-F"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Marlins" market="Miami" abbr="MIA" id="03556285-bdbb-4576-a06d-42f71f46ddc5" runs="1" hits="5" errors="0">
+          <probable_pitcher last_name="Fernandez" first_name="Jose" preferred_name="Jose" jersey_number="16" id="29e9830d-b31a-4246-998c-6ca6f5a73ee8" win="8" loss="2" era="2.527"/>
+          <starting_pitcher last_name="Fernandez" first_name="Jose" preferred_name="Jose" jersey_number="16" id="29e9830d-b31a-4246-998c-6ca6f5a73ee8" win="8" loss="2" era="2.527"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="1"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="611cc48f-6f05-4608-b2e5-5898d0cd5563" hitter_id="f2a70df3-0bff-48e3-92ae-970c2a103fcf" pitcher_id="a05b7bca-ea4b-4e56-99de-293371efc979" inning="5" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="04931bc2-76ee-4427-8da8-b5b3696f9ba6" starting_base="2" first_name="Derek" last_name="Dietrich" preferred_name="Derek" jersey_number="32"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Mets" market="New York" abbr="NYM" id="f246a5e5-afdb-479c-9aaa-c68beeda7af6" runs="0" hits="4" errors="0">
+          <probable_pitcher last_name="Harvey" first_name="Matthew" preferred_name="Matt" jersey_number="33" id="a05b7bca-ea4b-4e56-99de-293371efc979" win="4" loss="7" era="5.37"/>
+          <starting_pitcher last_name="Harvey" first_name="Matthew" preferred_name="Matt" jersey_number="33" id="a05b7bca-ea4b-4e56-99de-293371efc979" win="4" loss="7" era="5.37"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="29e9830d-b31a-4246-998c-6ca6f5a73ee8" status="A" position="P" primary_position="SP" first_name="Jose" last_name="Fernandez" preferred_name="Jose" jersey_number="16" win="9" loss="2" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="a05b7bca-ea4b-4e56-99de-293371efc979" status="A" position="P" primary_position="SP" first_name="Matthew" last_name="Harvey" preferred_name="Matt" jersey_number="33" win="4" loss="8" save="0" hold="0" blown_save="0"/>
+          </loss>
+          <save>
+            <player id="509ee425-cae4-4ca2-92c6-23c621e9ce2a" status="A" position="P" primary_position="RP" first_name="Alejandro" last_name="Ramos" preferred_name="A.J." jersey_number="44" win="0" loss="0" save="18" hold="0" blown_save="0"/>
+          </save>
+          <hold>
+            <player id="fc6848bc-5f1a-491d-89a8-1270c6b9b5b7" status="A" position="P" primary_position="RP" first_name="David" last_name="Phelps" preferred_name="David" jersey_number="35" win="4" loss="4" save="2" hold="13" blown_save="2"/>
+          </hold>
+        </pitching>
+      </game>
+      <game id="31bf02e5-febf-46e3-8c7a-a73cea7499c0" status="closed" coverage="full" attendance="27754" duration="3:07" game_number="1" day_night="D" scheduled="2016-06-05T17:35:00+00:00" home_team="481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd" away_team="4f735188-37c8-473d-ae32-1f7e34ccf892">
+        <venue id="61314394-c8b8-411e-b891-ca41285d5362" name="PNC Park" market="Pittsburgh" capacity="38362" surface="grass" address="115 Federal Street" city="Pittsburgh" state="PA" zip="15212" country="USA"/>
+        <broadcast network="ROOT SPORTS"/>
+        <final inning="9" inning_half="B"/>
+        <home name="Pirates" market="Pittsburgh" abbr="PIT" id="481dfe7e-5dab-46ab-a49f-9dcc2b6e2cfd" runs="4" hits="9" errors="0">
+          <probable_pitcher last_name="Cole" first_name="Gerrit" preferred_name="Gerrit" jersey_number="45" id="eebc991a-23ea-4f1c-ba3b-37ff21ee1603" win="5" loss="4" era="2.715"/>
+          <starting_pitcher last_name="Cole" first_name="Gerrit" preferred_name="Gerrit" jersey_number="45" id="eebc991a-23ea-4f1c-ba3b-37ff21ee1603" win="5" loss="4" era="2.715"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="2"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="0221e6fa-f1bc-4d31-ae96-f204656670e4" hitter_id="1c58cf18-0d61-479d-9438-0a4057f552ef" pitcher_id="3c0813bf-0d4b-4ec7-9ecb-4a3db0936de4" inning="1" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="f7e89c0d-5a15-4085-9a46-18aaaa5955da" starting_base="3" first_name="Jordy" last_name="Mercer" preferred_name="Jordy" jersey_number="10"/>
+            </run>
+            <run id="65553f83-c467-4fae-bc37-390b36cb6bf6" hitter_id="f772223f-2fbe-4191-aa67-6f495b4c7dd8" pitcher_id="3c0813bf-0d4b-4ec7-9ecb-4a3db0936de4" inning="2" inning_half="B" type="pitch" hitter_outcome="bB">
+              <runner id="51cfeba6-6ea2-420b-8512-92584890a8a1" starting_base="3" first_name="Matthew" last_name="Joyce" preferred_name="Matt" jersey_number="17"/>
+            </run>
+            <run id="9103ea69-1c42-45be-85db-9f2997519859" hitter_id="55955b56-8197-4c82-9653-e0348917739d" pitcher_id="3c0813bf-0d4b-4ec7-9ecb-4a3db0936de4" inning="2" inning_half="B" type="pitch" hitter_outcome="aHBP">
+              <runner id="6b49769c-fa3a-4b23-8f12-5094ca4155ab" starting_base="3" first_name="Chris" last_name="Stewart" preferred_name="Chris" jersey_number="19"/>
+            </run>
+            <run id="89f41fbd-c8e4-4865-a2f8-aadbc55a6051" hitter_id="0e762dec-639f-497f-a65b-af0eaa8be39f" pitcher_id="e5ed202a-fc37-4e5a-98b7-b607cb7d8a09" inning="6" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="eebc991a-23ea-4f1c-ba3b-37ff21ee1603" starting_base="3" first_name="Gerrit" last_name="Cole" preferred_name="Gerrit" jersey_number="45"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Angels" market="Los Angeles" abbr="LAA" id="4f735188-37c8-473d-ae32-1f7e34ccf892" runs="5" hits="9" errors="0">
+          <probable_pitcher last_name="Santiago" first_name="Hector" preferred_name="Hector" jersey_number="53" id="3c0813bf-0d4b-4ec7-9ecb-4a3db0936de4" win="3" loss="3" era="4.962"/>
+          <starting_pitcher last_name="Santiago" first_name="Hector" preferred_name="Hector" jersey_number="53" id="3c0813bf-0d4b-4ec7-9ecb-4a3db0936de4" win="3" loss="3" era="4.962"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="2"/>
+            <inning number="8" sequence="8" runs="2"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="613e1cc6-58f4-4059-a083-170907e0d9fa" hitter_id="fb061c77-5253-4181-ad7b-c68ef18aa511" pitcher_id="eebc991a-23ea-4f1c-ba3b-37ff21ee1603" inning="1" inning_half="T" type="pitch" hitter_outcome="oSF">
+              <runner id="9ca64cb3-b29b-4cb4-a048-a5919dcb44a3" starting_base="3" first_name="Yunel" last_name="Escobar" preferred_name="Yunel" jersey_number="6"/>
+            </run>
+            <run id="38dc3960-46f2-4890-9414-a69d27e29489" hitter_id="08947680-7840-4281-8896-07ec06319d0c" pitcher_id="eebc991a-23ea-4f1c-ba3b-37ff21ee1603" inning="7" inning_half="T" type="pitch" hitter_outcome="aD">
+              <runner id="21461120-9f42-47b9-b381-7dda973d823b" starting_base="1" first_name="Rafael" last_name="Ortega" preferred_name="Rafael" jersey_number="39"/>
+            </run>
+            <run id="84fc8c58-b02a-4d7d-9baa-88f642849d82" hitter_id="e7e504f7-6139-4ace-a519-eaa9fc8fc8c2" pitcher_id="eebc991a-23ea-4f1c-ba3b-37ff21ee1603" inning="7" inning_half="T" type="pitch" hitter_outcome="aD">
+              <runner id="08947680-7840-4281-8896-07ec06319d0c" starting_base="2" first_name="Christopher" last_name="Cron" preferred_name="C.J." jersey_number="24"/>
+            </run>
+            <run id="87218d43-b1c2-4caa-9c9f-1cf798c998fc" hitter_id="fb061c77-5253-4181-ad7b-c68ef18aa511" pitcher_id="8db68afa-8afd-404a-9e53-56ee8ff8e753" inning="8" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="fb061c77-5253-4181-ad7b-c68ef18aa511" starting_base="0" first_name="Jose" last_name="Pujols" preferred_name="Albert" jersey_number="5"/>
+              <runner id="46b5ebd8-b678-4748-ae90-a879afc3d270" starting_base="1" first_name="Kole" last_name="Calhoun" preferred_name="Kole" jersey_number="56"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="86043d47-6e67-4207-8ed5-2eec5e746d45" status="A" position="P" primary_position="RP" first_name="Deolis" last_name="Guerra" preferred_name="Deolis" jersey_number="54" win="1" loss="0" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="8db68afa-8afd-404a-9e53-56ee8ff8e753" status="A" position="P" primary_position="RP" first_name="Anthony" last_name="Watson" preferred_name="Tony" jersey_number="44" win="1" loss="2" save="0" hold="10" blown_save="2"/>
+          </loss>
+          <save>
+            <player id="dc69d6ad-e76a-43a2-a8b8-177e0a16c365" status="A" position="P" primary_position="RP" first_name="Huston" last_name="Street" preferred_name="Huston" jersey_number="16" win="2" loss="0" save="6" hold="0" blown_save="0"/>
+          </save>
+          <hold>
+            <player id="6eb8c698-6dc2-4f70-a0c4-c71957adbf36" status="A" position="P" primary_position="RP" first_name="Neftali" last_name="Feliz" preferred_name="Neftali" jersey_number="30" win="1" loss="0" save="0" hold="13" blown_save="1"/>
+          </hold>
+          <blown_save>
+            <player id="8db68afa-8afd-404a-9e53-56ee8ff8e753" status="A" position="P" primary_position="RP" first_name="Anthony" last_name="Watson" preferred_name="Tony" jersey_number="44" win="1" loss="2" save="0" hold="10" blown_save="2"/>
+          </blown_save>
+        </pitching>
+      </game>
+      <game id="ef9c15e3-389c-433c-80c3-d41beb455343" status="closed" coverage="full" attendance="25510" duration="3:19" game_number="1" day_night="D" scheduled="2016-06-05T18:10:00+00:00" home_team="aa34e0ed-f342-4ec6-b774-c79b47b60e2d" away_team="bdc11650-6f74-49c4-875e-778aeb7632d9">
+        <venue id="302f8dcd-eed6-4b83-8609-81548d51e955" name="Target Field" market="Minnesota" capacity="39021" surface="grass" address="353 N 5th Street" city="Minneapolis" state="MN" zip="55403" country="USA"/>
+        <broadcast network="FS-N"/>
+        <final inning="9" inning_half="B"/>
+        <home name="Twins" market="Minnesota" abbr="MIN" id="aa34e0ed-f342-4ec6-b774-c79b47b60e2d" runs="5" hits="9" errors="1">
+          <probable_pitcher last_name="Duffey" first_name="Tyler" preferred_name="Tyler" jersey_number="56" id="617bfd58-5d01-4956-9508-54e36be6d4e3" win="2" loss="4" era="4.573"/>
+          <starting_pitcher last_name="Duffey" first_name="Tyler" preferred_name="Tyler" jersey_number="56" id="617bfd58-5d01-4956-9508-54e36be6d4e3" win="2" loss="4" era="4.573"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="3"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="1"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="9a1c1c49-38e4-4406-a167-8a4e4e21aef3" hitter_id="31d992e8-1016-484a-b7c3-2b5851442cc5" pitcher_id="1c6ebbc7-2df6-432f-960d-0e7162f3dd6d" inning="1" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="ecdcb57f-d0c5-4409-89ee-6680a77588de" starting_base="2" first_name="Eduardo" last_name="Nunez" preferred_name="Eduardo" jersey_number="9"/>
+            </run>
+            <run id="e5d54325-037c-4971-896f-53bb6a984c71" hitter_id="3cab9a6f-22d9-44d8-9a9c-0d4156e8c932" pitcher_id="1c6ebbc7-2df6-432f-960d-0e7162f3dd6d" inning="3" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="3cab9a6f-22d9-44d8-9a9c-0d4156e8c932" starting_base="0" first_name="Byung-Ho" last_name="Park" preferred_name="Byung-Ho" jersey_number="52"/>
+            </run>
+            <run id="9889f3ac-9fb7-42cf-8a0d-106dc5b3e205" hitter_id="962bf98a-22a3-4958-b296-f569bfd7407f" pitcher_id="1c6ebbc7-2df6-432f-960d-0e7162f3dd6d" inning="3" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="962bf98a-22a3-4958-b296-f569bfd7407f" starting_base="0" first_name="Robert" last_name="Grossman" preferred_name="Robbie" jersey_number="36"/>
+            </run>
+            <run id="6f232fb2-eaf6-427b-b722-ce9c61c5542c" hitter_id="f45963f1-0379-45da-9e2b-c6a099910a35" pitcher_id="1c6ebbc7-2df6-432f-960d-0e7162f3dd6d" inning="3" inning_half="B" type="pitch" hitter_outcome="aT">
+              <runner id="6e455e9c-d760-4661-8258-90d1ee46bb9e" starting_base="1" first_name="Kurt" last_name="Suzuki" preferred_name="Kurt" jersey_number="8"/>
+            </run>
+            <run id="7f6e2574-aecd-4e74-b3ea-9c600e659925" hitter_id="ecdcb57f-d0c5-4409-89ee-6680a77588de" pitcher_id="3f6d6a49-1361-441c-9145-e49f690587b7" inning="8" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="ecdcb57f-d0c5-4409-89ee-6680a77588de" starting_base="0" first_name="Eduardo" last_name="Nunez" preferred_name="Eduardo" jersey_number="9"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Rays" market="Tampa Bay" abbr="TB" id="bdc11650-6f74-49c4-875e-778aeb7632d9" runs="7" hits="10" errors="1">
+          <probable_pitcher last_name="Smyly" first_name="Todd" preferred_name="Drew" jersey_number="33" id="1c6ebbc7-2df6-432f-960d-0e7162f3dd6d" win="2" loss="7" era="4.773"/>
+          <starting_pitcher last_name="Smyly" first_name="Todd" preferred_name="Drew" jersey_number="33" id="1c6ebbc7-2df6-432f-960d-0e7162f3dd6d" win="2" loss="7" era="4.773"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="1"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="2"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="1"/>
+            <inning number="9" sequence="9" runs="2"/>
+          </scoring>
+          <runs>
+            <run id="ba2fd338-d666-415a-b3fc-830d18eff1ce" hitter_id="5f4f9e11-f9b5-4221-95b6-13329553848d" pitcher_id="617bfd58-5d01-4956-9508-54e36be6d4e3" inning="2" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="5f4f9e11-f9b5-4221-95b6-13329553848d" starting_base="0" first_name="Logan" last_name="Morrison" preferred_name="Logan" jersey_number="7"/>
+            </run>
+            <run id="a26b64d6-0d28-4a65-bc9f-3a758e9d5142" hitter_id="5f4f9e11-f9b5-4221-95b6-13329553848d" pitcher_id="617bfd58-5d01-4956-9508-54e36be6d4e3" inning="4" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="5f4f9e11-f9b5-4221-95b6-13329553848d" starting_base="0" first_name="Logan" last_name="Morrison" preferred_name="Logan" jersey_number="7"/>
+              <runner id="8d6f801e-7f89-4a81-81ec-072f72604c8e" starting_base="1" first_name="Evan" last_name="Longoria" preferred_name="Evan" jersey_number="3"/>
+            </run>
+            <run id="28558226-b4f1-47aa-aa35-43981ee9a364" hitter_id="8d6f801e-7f89-4a81-81ec-072f72604c8e" pitcher_id="617bfd58-5d01-4956-9508-54e36be6d4e3" inning="6" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="8d6f801e-7f89-4a81-81ec-072f72604c8e" starting_base="0" first_name="Evan" last_name="Longoria" preferred_name="Evan" jersey_number="3"/>
+            </run>
+            <run id="e8152d63-89c6-49da-a49b-4fe49be2e19e" hitter_id="8d6f801e-7f89-4a81-81ec-072f72604c8e" pitcher_id="e0d89956-1427-4b2f-9025-10330561e464" inning="8" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="8d6f801e-7f89-4a81-81ec-072f72604c8e" starting_base="0" first_name="Evan" last_name="Longoria" preferred_name="Evan" jersey_number="3"/>
+            </run>
+            <run id="c6c8fa14-32f7-480f-aca7-42f8fe63f918" hitter_id="a85e4cd0-03e0-4761-9e77-31a14fd8af33" pitcher_id="14a7138b-b12b-4dbf-a561-e715cd0491db" inning="9" inning_half="T" type="pitch" hitter_outcome="oSF">
+              <runner id="2cfe41eb-a26d-45b0-8b7c-22536e59db28" starting_base="3" first_name="Steven" last_name="Souza Jr." preferred_name="Steven" jersey_number="20"/>
+            </run>
+            <run id="021e6a83-297f-43aa-80f3-5442347b9b47" hitter_id="8d6f801e-7f89-4a81-81ec-072f72604c8e" pitcher_id="14a7138b-b12b-4dbf-a561-e715cd0491db" inning="9" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="a0edb8cf-2821-4107-bb92-9d5715f9ee2c" starting_base="2" first_name="Curtis" last_name="Casali" preferred_name="Curt" jersey_number="19"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="3f6d6a49-1361-441c-9145-e49f690587b7" status="A" position="P" primary_position="RP" first_name="Xavier" last_name="Cedeno" preferred_name="Xavier" jersey_number="31" win="3" loss="1" save="0" hold="9" blown_save="3"/>
+          </win>
+          <loss>
+            <player id="14a7138b-b12b-4dbf-a561-e715cd0491db" status="A" position="P" primary_position="RP" first_name="Kevin" last_name="Jepsen" preferred_name="Kevin" jersey_number="49" win="2" loss="5" save="7" hold="1" blown_save="3"/>
+          </loss>
+          <save>
+            <player id="bb3f5243-48f5-4c05-b6ac-f73db40875e0" status="A" position="P" primary_position="RP" first_name="Alexander" last_name="Colome" preferred_name="Alex" jersey_number="37" win="1" loss="1" save="15" hold="1" blown_save="0"/>
+          </save>
+          <blown_save>
+            <player id="3f6d6a49-1361-441c-9145-e49f690587b7" status="A" position="P" primary_position="RP" first_name="Xavier" last_name="Cedeno" preferred_name="Xavier" jersey_number="31" win="3" loss="1" save="0" hold="9" blown_save="3"/>
+          </blown_save>
+        </pitching>
+      </game>
+      <game id="10282cb8-e126-4b1d-8f19-17e2447203a9" status="inprogress" coverage="full" game_number="1" day_night="N" scheduled="2016-06-06T00:05:00+00:00" home_team="44671792-dc02-4fdd-a5ad-f5f17edaa9d7" away_team="a7723160-10b7-4277-a309-d8dd95a8ae65">
+        <venue id="83cc591a-1096-4383-a6ca-e2bd6f8db629" name="Busch Stadium" market="St. Louis" capacity="43975" surface="grass" address="700 Clark Street" city="St. Louis" state="MO" zip="63102" country="USA"/>
+        <broadcast network="ESPN"/>
+        <outcome type="pitch" current_inning="6" current_inning_half="B">
+          <count strikes="1" balls="1" outs="0" inning="6" inning_half="B" half_over="false"/>
+          <hitter id="d0a6b792-d552-46d6-8397-75b866f15112" outcome_id="bB" ab_over="false" last_name="Garcia" first_name="Greg" preferred_name="Greg" jersey_number="35"/>
+          <pitcher id="4f4d8ff5-90c2-4c6e-9e7d-cf3d9ffa8822" last_name="Gearrin" first_name="Cory" preferred_name="Cory" jersey_number="62"/>
+          <runners>
+            <runner id="6e790e8d-85cb-4c75-8f1f-8c12f410f3ab" starting_base="1" ending_base="1" out="false" last_name="Molina" first_name="Yadier" preferred_name="Yadier" jersey_number="4"/>
+            <runner id="01e1aa95-0cf7-4220-8d1c-dc756c6075e1" starting_base="2" ending_base="2" out="false" last_name="Adams" first_name="Matthew" preferred_name="Matt" jersey_number="32"/>
+            <runner id="5a319b37-0c79-4859-8071-847c3ad7d9a0" starting_base="3" ending_base="3" out="false" last_name="Piscotty" first_name="Stephen" preferred_name="Stephen" jersey_number="55"/>
+          </runners>
+        </outcome>
+        <home name="Cardinals" market="St. Louis" abbr="STL" id="44671792-dc02-4fdd-a5ad-f5f17edaa9d7" runs="4" hits="6" errors="1">
+          <probable_pitcher last_name="Martinez" first_name="Carlos" preferred_name="Carlos" jersey_number="18" id="b2ee4a6d-1936-4a37-b556-d196ac9615ca" win="5" loss="5" era="3.689"/>
+          <starting_pitcher last_name="Martinez" first_name="Carlos" preferred_name="Carlos" jersey_number="18" id="b2ee4a6d-1936-4a37-b556-d196ac9615ca" win="5" loss="5" era="3.689"/>
+          <current_pitcher last_name="Martinez" first_name="Carlos" preferred_name="Carlos" jersey_number="18" id="b2ee4a6d-1936-4a37-b556-d196ac9615ca" win="5" loss="5" era="3.689"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="1"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="3"/>
+          </scoring>
+          <runs>
+            <run id="f718031d-9743-41ec-bf20-a168ed0fd2ce" hitter_id="a8cd51db-4a15-454a-836d-79fe158f7b71" pitcher_id="4972d0a8-eb5a-476b-b865-3e4b6375503e" inning="3" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="5a1ba87b-8ec6-4588-97c8-79db8d044cca" starting_base="3" first_name="Randal" last_name="Grichuk" preferred_name="Randal" jersey_number="15"/>
+            </run>
+            <run id="019af01c-9e44-493b-9fe7-8d35ffafe8b2" hitter_id="60917df4-fff8-410e-8901-bd4944d4eb32" pitcher_id="4972d0a8-eb5a-476b-b865-3e4b6375503e" inning="6" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="a8cd51db-4a15-454a-836d-79fe158f7b71" starting_base="2" first_name="Matthew" last_name="Carpenter" preferred_name="Matt" jersey_number="13"/>
+            </run>
+            <run id="04d8fd0b-d954-41d9-a065-e2d01cb1d393" hitter_id="01e1aa95-0cf7-4220-8d1c-dc756c6075e1" pitcher_id="f70b040b-e4fe-4459-9c3e-2914549bffdf" inning="6" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="60917df4-fff8-410e-8901-bd4944d4eb32" starting_base="3" first_name="Aledmys" last_name="Diaz" preferred_name="Aledmys" jersey_number="36"/>
+            </run>
+            <run id="860fb701-ff52-4a55-ad7a-d7a5793d1319" hitter_id="6e790e8d-85cb-4c75-8f1f-8c12f410f3ab" pitcher_id="4f4d8ff5-90c2-4c6e-9e7d-cf3d9ffa8822" inning="6" inning_half="B" type="pitch" hitter_outcome="oFC">
+              <runner id="4083c6af-3416-4fb4-9b7e-d93e95640c86" starting_base="3" first_name="Matthew" last_name="Holliday" preferred_name="Matt" jersey_number="7"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Giants" market="San Francisco" abbr="SF" id="a7723160-10b7-4277-a309-d8dd95a8ae65" runs="3" hits="4" errors="1">
+          <probable_pitcher last_name="Peavy" first_name="Jacob" preferred_name="Jake" jersey_number="22" id="4972d0a8-eb5a-476b-b865-3e4b6375503e" win="2" loss="5" era="6.343"/>
+          <starting_pitcher last_name="Peavy" first_name="Jacob" preferred_name="Jake" jersey_number="22" id="4972d0a8-eb5a-476b-b865-3e4b6375503e" win="2" loss="5" era="6.343"/>
+          <current_pitcher last_name="Gearrin" first_name="Cory" preferred_name="Cory" jersey_number="62" id="4f4d8ff5-90c2-4c6e-9e7d-cf3d9ffa8822" win="1" loss="0" era="2.662"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="2"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+          </scoring>
+          <runs>
+            <run id="85a02143-b871-4a3d-a85c-f02acb94b072" hitter_id="a0890c50-1874-4931-8401-ffc16f02d61d" pitcher_id="b2ee4a6d-1936-4a37-b556-d196ac9615ca" inning="4" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="a0890c50-1874-4931-8401-ffc16f02d61d" starting_base="0" first_name="Jarrett" last_name="Parker" preferred_name="Jarrett" jersey_number="6"/>
+              <runner id="cbb197fc-6321-4a20-b931-b7260496a8b7" starting_base="1" first_name="Gregor" last_name="Blanco" preferred_name="Gregor" jersey_number="7"/>
+            </run>
+            <run id="8c093c4f-1cd0-4f02-a810-365583e9b816" hitter_id="d456e10f-20e9-44c2-a15a-6c66951e5afe" pitcher_id="b2ee4a6d-1936-4a37-b556-d196ac9615ca" inning="6" inning_half="T" type="pitch" hitter_outcome="oGO">
+              <runner id="00856892-9a5a-4161-b979-4335dab399cc" starting_base="3" first_name="Matthew" last_name="Duffy" preferred_name="Matt" jersey_number="5"/>
+            </run>
+          </runs>
+        </away>
+      </game>
+      <game id="8ca21482-1bd2-41d7-9286-4a5034a2a07b" status="closed" coverage="full" attendance="35823" duration="2:44" game_number="1" day_night="D" scheduled="2016-06-05T17:35:00+00:00" home_team="93941372-eb4c-4c40-aced-fe3267174393" away_team="1d678440-b4b1-4954-9b39-70afb3ebbcfa">
+        <venue id="b27b0dc5-c2c5-401d-b8b9-a6a2dbc225e5" name="Fenway Park" market="Boston" capacity="37499" surface="grass" address="4 Yawkey Way" city="Boston" state="MA" zip="02215" country="USA"/>
+        <broadcast network="NESN"/>
+        <final inning="9" inning_half="B"/>
+        <home name="Red Sox" market="Boston" abbr="BOS" id="93941372-eb4c-4c40-aced-fe3267174393" runs="4" hits="6" errors="0">
+          <probable_pitcher last_name="Rodriguez" first_name="Eduardo" preferred_name="Eduardo" jersey_number="52" id="93413a68-2c05-405a-a38c-9ee983b36913" win="1" loss="0" era="3.0"/>
+          <starting_pitcher last_name="Rodriguez" first_name="Eduardo" preferred_name="Eduardo" jersey_number="52" id="93413a68-2c05-405a-a38c-9ee983b36913" win="1" loss="0" era="3.0"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="1"/>
+            <inning number="9" sequence="9" runs="3"/>
+          </scoring>
+          <runs>
+            <run id="1589fbc8-f84f-4586-a875-6fdb030a21e1" hitter_id="a98faa82-90a7-4577-b1d1-3572b07e2694" pitcher_id="c06ac3e5-bb24-415e-a4b6-7b5ae2377948" inning="8" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="a98faa82-90a7-4577-b1d1-3572b07e2694" starting_base="0" first_name="Christopher" last_name="Young" preferred_name="Chris" jersey_number="30"/>
+            </run>
+            <run id="96ba5ae3-09bc-46de-8b82-5e4d469728f5" hitter_id="fadd12b6-4d2d-4e03-82d9-c5e8b6cb0b83" pitcher_id="f160ac03-8f68-4b9f-8773-6d21f312abdf" inning="9" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="40085c05-fa06-4eec-9f41-f0245980f6a0" starting_base="2" first_name="Dustin" last_name="Pedroia" preferred_name="Dustin" jersey_number="15"/>
+            </run>
+            <run id="5d2cceb0-b65c-4cfc-874e-4ac746a50a82" hitter_id="e9d2b083-2e0b-45aa-bbd4-4e62435d2a9e" pitcher_id="f160ac03-8f68-4b9f-8773-6d21f312abdf" inning="9" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="a2f4ce52-df7b-4aef-af88-6a1ff69b45c5" starting_base="2" first_name="Rusney" last_name="Castillo" preferred_name="Rusney" jersey_number="38"/>
+            </run>
+            <run id="77b07afe-5c76-4b99-9b22-0639a02bb360" hitter_id="3f38dbee-db39-48c9-8b30-d7347deccd19" pitcher_id="f160ac03-8f68-4b9f-8773-6d21f312abdf" inning="9" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="e9d2b083-2e0b-45aa-bbd4-4e62435d2a9e" starting_base="2" first_name="Hanley" last_name="Ramirez" preferred_name="Hanley" jersey_number="13"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Blue Jays" market="Toronto" abbr="TOR" id="1d678440-b4b1-4954-9b39-70afb3ebbcfa" runs="5" hits="4" errors="0">
+          <probable_pitcher last_name="Estrada" first_name="Marco" preferred_name="Marco" jersey_number="25" id="c06ac3e5-bb24-415e-a4b6-7b5ae2377948" win="3" loss="2" era="2.43"/>
+          <starting_pitcher last_name="Estrada" first_name="Marco" preferred_name="Marco" jersey_number="25" id="c06ac3e5-bb24-415e-a4b6-7b5ae2377948" win="3" loss="2" era="2.43"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="3"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="1"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="38948af7-ce73-4ca8-b81a-ef53173f8b7a" hitter_id="78bbb2e3-487a-4f14-ad95-22dfae998a98" pitcher_id="93413a68-2c05-405a-a38c-9ee983b36913" inning="1" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="78bbb2e3-487a-4f14-ad95-22dfae998a98" starting_base="0" first_name="Jose" last_name="Bautista" preferred_name="Jose" jersey_number="19"/>
+            </run>
+            <run id="70f1de6a-5c2d-4074-983d-f0b818be35ce" hitter_id="46bc8a19-1010-4c05-9745-7d90e8ea6506" pitcher_id="93413a68-2c05-405a-a38c-9ee983b36913" inning="3" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="46bc8a19-1010-4c05-9745-7d90e8ea6506" starting_base="0" first_name="Darwin" last_name="Barney" preferred_name="Darwin" jersey_number="18"/>
+            </run>
+            <run id="e543fe84-6f4b-4b20-bd74-e6a642d8a12b" hitter_id="8ec56596-5b8b-41f8-88a7-384f20b8b6a7" pitcher_id="93413a68-2c05-405a-a38c-9ee983b36913" inning="3" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="8ec56596-5b8b-41f8-88a7-384f20b8b6a7" starting_base="0" first_name="Edwin" last_name="Encarnacion" preferred_name="Edwin" jersey_number="10"/>
+              <runner id="267c9cd7-a2e2-4f88-8b9b-b7389b1a9ccd" starting_base="1" first_name="Joshua" last_name="Donaldson" preferred_name="Josh" jersey_number="20"/>
+            </run>
+            <run id="2aa236c3-5e43-4386-a69f-c76290c9b3b8" hitter_id="3da24e28-741c-4978-bdba-52de51975820" pitcher_id="93413a68-2c05-405a-a38c-9ee983b36913" inning="6" inning_half="T" type="pitch" hitter_outcome="aHR">
+              <runner id="3da24e28-741c-4978-bdba-52de51975820" starting_base="0" first_name="Russell" last_name="Martin" preferred_name="Russell" jersey_number="55"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="c06ac3e5-bb24-415e-a4b6-7b5ae2377948" status="A" position="P" primary_position="SP" first_name="Marco" last_name="Estrada" preferred_name="Marco" jersey_number="25" win="4" loss="2" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="93413a68-2c05-405a-a38c-9ee983b36913" status="A" position="P" primary_position="SP" first_name="Eduardo" last_name="Rodriguez" preferred_name="Eduardo" jersey_number="52" win="1" loss="1" save="0" hold="0" blown_save="0"/>
+          </loss>
+        </pitching>
+      </game>
+      <game id="0fadb1a2-a242-4659-b979-288a3e890617" status="closed" coverage="full" attendance="16747" duration="2:21" game_number="1" day_night="D" scheduled="2016-06-05T17:10:00+00:00" home_team="80715d0d-0d2a-450f-a970-1b9a3b18c7e7" away_team="833a51a9-0d84-410f-bd77-da08c3e5e26e">
+        <venue id="2b0ccd49-4d87-4996-ac4d-27ffc7ee4c16" name="Progressive Field" market="Cleveland" capacity="38000" surface="grass" address="2401 Ontario Street" city="Cleveland" state="OH" zip="44115" country="USA"/>
+        <broadcast network="SportsTime Ohio"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Indians" market="Cleveland" abbr="CLE" id="80715d0d-0d2a-450f-a970-1b9a3b18c7e7" runs="7" hits="9" errors="0">
+          <probable_pitcher last_name="Kluber" first_name="Corey" preferred_name="Corey" jersey_number="28" id="48982279-0e43-4d94-95fb-fd5e623b54b6" win="4" loss="6" era="4.154"/>
+          <starting_pitcher last_name="Kluber" first_name="Corey" preferred_name="Corey" jersey_number="28" id="48982279-0e43-4d94-95fb-fd5e623b54b6" win="4" loss="6" era="4.154"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="1"/>
+            <inning number="5" sequence="5" runs="3"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="2"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="858c050b-76e8-4671-b968-52066fce5fe6" hitter_id="98d3d7c1-16bb-490c-8e03-73567efdbabf" pitcher_id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" inning="1" inning_half="B" type="pitch" hitter_outcome="oSF">
+              <runner id="07aa2ada-6d34-4eca-8396-eca25d733e74" starting_base="3" first_name="Jason" last_name="Kipnis" preferred_name="Jason" jersey_number="22"/>
+            </run>
+            <run id="f9db3f5e-16ef-4acd-81ee-582fa7518750" hitter_id="60c64199-679f-466a-b0e0-ea9438abd05b" pitcher_id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" inning="4" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="60c64199-679f-466a-b0e0-ea9438abd05b" starting_base="0" first_name="Michael" last_name="Napoli" preferred_name="Mike" jersey_number="26"/>
+            </run>
+            <run id="04711deb-518b-400e-9a0e-f1d36e98a5bf" hitter_id="e11e43c5-9aeb-4ec7-b85e-978884d3f4b2" pitcher_id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" inning="5" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="e11e43c5-9aeb-4ec7-b85e-978884d3f4b2" starting_base="0" first_name="Tyler" last_name="Naquin" preferred_name="Tyler" jersey_number="30"/>
+            </run>
+            <run id="8189ebc8-010a-435d-9944-aa24f30eb97a" hitter_id="86167542-e9cf-4d20-8022-7ed53dc09d0a" pitcher_id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" inning="5" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="86167542-e9cf-4d20-8022-7ed53dc09d0a" starting_base="0" first_name="Carlos" last_name="Santana" preferred_name="Carlos" jersey_number="41"/>
+            </run>
+            <run id="4b30aba3-6ae2-4af1-831f-c0c2fa854af7" hitter_id="98d3d7c1-16bb-490c-8e03-73567efdbabf" pitcher_id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" inning="5" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="98d3d7c1-16bb-490c-8e03-73567efdbabf" starting_base="0" first_name="Francisco" last_name="Lindor" preferred_name="Francisco" jersey_number="12"/>
+            </run>
+            <run id="4c894d51-07b2-4717-a96c-e701a73f87a3" hitter_id="86167542-e9cf-4d20-8022-7ed53dc09d0a" pitcher_id="042c8b24-768e-4c51-9dc3-b7d441a7165c" inning="7" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="e11e43c5-9aeb-4ec7-b85e-978884d3f4b2" starting_base="3" first_name="Tyler" last_name="Naquin" preferred_name="Tyler" jersey_number="30"/>
+            </run>
+            <run id="1574a8b1-1a0f-4cc4-812a-5168a2cfcd3e" hitter_id="98d3d7c1-16bb-490c-8e03-73567efdbabf" pitcher_id="a1799b79-a49c-42a3-9917-e938f8f9e425" inning="7" inning_half="B" type="pitch" hitter_outcome="aS">
+              <runner id="f8dc76bf-05b2-4649-a1a0-c65ae2d1a208" starting_base="3" first_name="Michael" last_name="Martinez" preferred_name="Michael" jersey_number="1"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Royals" market="Kansas City" abbr="KC" id="833a51a9-0d84-410f-bd77-da08c3e5e26e" runs="0" hits="3" errors="0">
+          <probable_pitcher last_name="Young" first_name="Christopher" preferred_name="Chris" jersey_number="32" id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" win="2" loss="5" era="5.945"/>
+          <starting_pitcher last_name="Young" first_name="Christopher" preferred_name="Chris" jersey_number="32" id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" win="2" loss="5" era="5.945"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="48982279-0e43-4d94-95fb-fd5e623b54b6" status="A" position="P" primary_position="SP" first_name="Corey" last_name="Kluber" preferred_name="Corey" jersey_number="28" win="5" loss="6" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="14bfa54e-3df3-47c8-adf2-2400d2e2c0ec" status="A" position="P" primary_position="SP" first_name="Christopher" last_name="Young" preferred_name="Chris" jersey_number="32" win="2" loss="6" save="0" hold="0" blown_save="0"/>
+          </loss>
+        </pitching>
+      </game>
+      <game id="39cdd884-6d3f-4a46-a456-88a82863f845" status="closed" coverage="full" attendance="24259" duration="3:05" game_number="1" day_night="D" scheduled="2016-06-05T17:35:00+00:00" home_team="2142e1ba-3b40-445c-b8bb-f1f8b1054220" away_team="dcfd5266-00ce-442c-bc09-264cd20cf455">
+        <venue id="b4186004-b6d0-42e7-8dc1-82ef0d946ecc" name="Citizens Bank Park" market="Philadelphia" capacity="43651" surface="grass" address="One Citizens Bank Way" city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <broadcast network="CSN"/>
+        <final inning="9" inning_half="T"/>
+        <home name="Phillies" market="Philadelphia" abbr="PHI" id="2142e1ba-3b40-445c-b8bb-f1f8b1054220" runs="8" hits="13" errors="0">
+          <probable_pitcher last_name="Nola" first_name="Aaron" preferred_name="Aaron" jersey_number="27" id="ded1b30d-52ca-4eec-bce6-251b15b085ac" win="4" loss="4" era="2.875"/>
+          <starting_pitcher last_name="Nola" first_name="Aaron" preferred_name="Aaron" jersey_number="27" id="ded1b30d-52ca-4eec-bce6-251b15b085ac" win="4" loss="4" era="2.875"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="1"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="1"/>
+            <inning number="4" sequence="4" runs="1"/>
+            <inning number="5" sequence="5" runs="5"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="0"/>
+            <inning number="9" sequence="9" runs="X"/>
+          </scoring>
+          <runs>
+            <run id="2683eb97-d539-4273-9d04-3a69a625e519" hitter_id="8540822b-75bd-424d-ba88-5e60c80b6c30" pitcher_id="0d8e671c-d03c-4024-9817-44b803833083" inning="1" inning_half="B" type="pitch" hitter_outcome="oGO">
+              <runner id="5a82d6e0-6981-4eab-85ed-c4bc55b951ca" starting_base="3" first_name="David" last_name="Herrera" preferred_name="Odubel" jersey_number="37"/>
+            </run>
+            <run id="6c8c192d-bf19-43b5-a615-bba2ff7b45fa" hitter_id="0781142d-3330-4d0b-8c8d-3217172704d7" pitcher_id="0d8e671c-d03c-4024-9817-44b803833083" inning="3" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="0781142d-3330-4d0b-8c8d-3217172704d7" starting_base="0" first_name="Maikel" last_name="Franco" preferred_name="Maikel" jersey_number="7"/>
+            </run>
+            <run id="1960b0e8-96ea-4dc8-a839-0cb7ba5737a4" hitter_id="342c2ff3-d328-4032-848e-92e7070b09ce" pitcher_id="0d8e671c-d03c-4024-9817-44b803833083" inning="4" inning_half="B" type="pitch" hitter_outcome="aT">
+              <runner id="c9baa403-308f-4ec2-b109-20cb9435a15e" starting_base="2" first_name="Cody" last_name="Asche" preferred_name="Cody" jersey_number="25"/>
+            </run>
+            <run id="76aedb7e-0b6d-4531-b10a-b908a237242f" hitter_id="36d8674c-0ff2-468a-b284-6dc338c6a13a" pitcher_id="0d8e671c-d03c-4024-9817-44b803833083" inning="5" inning_half="B" type="pitch" hitter_outcome="aD">
+              <runner id="5a82d6e0-6981-4eab-85ed-c4bc55b951ca" starting_base="3" first_name="David" last_name="Herrera" preferred_name="Odubel" jersey_number="37"/>
+            </run>
+            <run id="a8d5b0ed-8a08-40a5-9aa5-46160ac81186" hitter_id="99eabefc-9777-428a-a59f-e8282b8d0066" pitcher_id="c2eb84d4-0367-47a9-b922-40585f078c4f" inning="5" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="99eabefc-9777-428a-a59f-e8282b8d0066" starting_base="0" first_name="Jimmy" last_name="Paredes" preferred_name="Jimmy" jersey_number="41"/>
+              <runner id="36d8674c-0ff2-468a-b284-6dc338c6a13a" starting_base="2" first_name="Thomas" last_name="Joseph" preferred_name="Tommy" jersey_number="19"/>
+              <runner id="0781142d-3330-4d0b-8c8d-3217172704d7" starting_base="3" first_name="Maikel" last_name="Franco" preferred_name="Maikel" jersey_number="7"/>
+            </run>
+            <run id="55f19182-3201-4566-bd64-8ffc87d39d92" hitter_id="cce10d2f-aef6-479d-b0e5-f008c1ddbc19" pitcher_id="c2eb84d4-0367-47a9-b922-40585f078c4f" inning="5" inning_half="B" type="pitch" hitter_outcome="aHR">
+              <runner id="cce10d2f-aef6-479d-b0e5-f008c1ddbc19" starting_base="0" first_name="Cameron" last_name="Rupp" preferred_name="Cameron" jersey_number="29"/>
+            </run>
+          </runs>
+        </home>
+        <away name="Brewers" market="Milwaukee" abbr="MIL" id="dcfd5266-00ce-442c-bc09-264cd20cf455" runs="1" hits="11" errors="1">
+          <probable_pitcher last_name="Peralta" first_name="Wily" preferred_name="Wily" jersey_number="38" id="0d8e671c-d03c-4024-9817-44b803833083" win="3" loss="6" era="6.512"/>
+          <starting_pitcher last_name="Peralta" first_name="Wily" preferred_name="Wily" jersey_number="38" id="0d8e671c-d03c-4024-9817-44b803833083" win="3" loss="6" era="6.512"/>
+          <scoring>
+            <inning number="1" sequence="1" runs="0"/>
+            <inning number="2" sequence="2" runs="0"/>
+            <inning number="3" sequence="3" runs="0"/>
+            <inning number="4" sequence="4" runs="0"/>
+            <inning number="5" sequence="5" runs="0"/>
+            <inning number="6" sequence="6" runs="0"/>
+            <inning number="7" sequence="7" runs="0"/>
+            <inning number="8" sequence="8" runs="1"/>
+            <inning number="9" sequence="9" runs="0"/>
+          </scoring>
+          <runs>
+            <run id="f0618acb-7720-4ffc-915b-18964379c56f" hitter_id="8ea2ebcb-6de2-4452-a2fb-71b76fe97d92" pitcher_id="f2e016ca-66e9-4ed5-8e01-39bc35e644e6" inning="8" inning_half="T" type="pitch" hitter_outcome="aS">
+              <runner id="d80a8b1f-aee7-400c-b21f-75e0ac4a32a2" starting_base="2" first_name="Domingo" last_name="Santana" preferred_name="Domingo" jersey_number="16"/>
+            </run>
+          </runs>
+        </away>
+        <pitching>
+          <win>
+            <player id="ded1b30d-52ca-4eec-bce6-251b15b085ac" status="A" position="P" primary_position="SP" first_name="Aaron" last_name="Nola" preferred_name="Aaron" jersey_number="27" win="5" loss="4" save="0" hold="0" blown_save="0"/>
+          </win>
+          <loss>
+            <player id="0d8e671c-d03c-4024-9817-44b803833083" status="A" position="P" primary_position="SP" first_name="Wily" last_name="Peralta" preferred_name="Wily" jersey_number="38" win="3" loss="7" save="0" hold="0" blown_save="0"/>
+          </loss>
+        </pitching>
+      </game>
+    </games>
+  </daily-boxscore>
+</league>
+<!-- Generation ended @ 2016-06-06 02:16:18 UTC -->
